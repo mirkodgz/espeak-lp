@@ -40,7 +40,7 @@ export function Pricing() {
           <motion.div
             key={plan.name}
             style={{ opacity: opacities[index] || 1, y: yTransforms[index] || 0 }}
-            className={`bg-muted/60 p-6 rounded-3xl grid grid-rows-[auto_auto_1fr_auto] ${plan.isPopular ? 'ring-2 ring-primary' : ''}`}
+            className={`bg-white p-6 rounded-3xl grid grid-rows-[auto_auto_1fr_auto] border ${plan.isPopular ? 'ring-2 ring-primary border-primary' : 'border-border shadow-sm'}`}
           >
             {plan.isPopular && (
               <div className="text-xs font-semibold text-primary mb-2">PIÙ POPOLARE</div>
