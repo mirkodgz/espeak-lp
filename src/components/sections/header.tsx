@@ -58,7 +58,7 @@ export function Header() {
             delay: isInitialLoad ? 0.5 : 0,
             ease: easeInOutCubic,
           }}
-          className={cn("sticky top-0 z-50 p-0 bg-background/60 backdrop-blur")}
+          className={cn("sticky top-0 z-50 p-0 bg-[var(--cta)] backdrop-blur")}
         >
           <div className="flex justify-between items-center container mx-auto p-2">
             <Link
@@ -72,8 +72,7 @@ export function Header() {
               <Link
                 href="#"
                 className={cn(
-                  buttonVariants({ variant: "cta" }),
-                  "h-8 rounded-full group"
+                  "h-8 rounded-full group px-4 py-2 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors bg-white text-[var(--cta)] hover:bg-white/90"
                 )}
               >
                 {siteConfig.cta}

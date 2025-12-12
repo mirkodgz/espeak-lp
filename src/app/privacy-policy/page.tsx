@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Header } from "@/components/sections/header";
+import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | espeak",
@@ -6,7 +8,9 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="container px-6 sm:px-10 mx-auto max-w-3xl py-12 sm:py-20">
+    <main className="relative">
+      <Header />
+      <div className="container px-6 sm:px-10 mx-auto max-w-3xl py-12 sm:py-20">
       <header className="space-y-3">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
           Privacy Policy
@@ -384,6 +388,8 @@ export default function PrivacyPolicyPage() {
           </p>
         </section>
       </article>
+      </div>
+      <Footer />
     </main>
   );
 }

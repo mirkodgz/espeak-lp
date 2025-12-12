@@ -1,5 +1,5 @@
-import { Benefits } from "@/components/sections/benefits";
-import { BentoGrid } from "@/components/sections/bento";
+// import { Benefits } from "@/components/sections/benefits"; // Sezione "Per chi è espeak" nascosta temporaneamente, da usare in futuro quando ci saranno le foto
+// import { BentoGrid } from "@/components/sections/bento"; // Sezione nascosta temporaneamente, da usare in futuro
 import { CTA } from "@/components/sections/cta";
 import { FAQ } from "@/components/sections/faq";
 import { FeatureHighlight } from "@/components/sections/feature-highlight";
@@ -18,8 +18,8 @@ export default function Home() {
       <Hero />
       <FeatureScroll />
       <FeatureHighlight />
-      <BentoGrid />
-      <Benefits />
+      {/* <BentoGrid /> Sezione "Perché espeak" nascosta temporaneamente, da usare in futuro */}
+      {/* <Benefits /> Sezione "Per chi è espeak" nascosta temporaneamente, da usare in futuro quando ci saranno le foto */}
       <Features />
       <Testimonials />
       <Pricing />

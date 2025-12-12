@@ -80,21 +80,21 @@ export const siteConfig = {
       title: "Conversazioni reali in inglese, ogni giorno",
       description:
         "Allenati con situazioni concrete: lavoro, viaggi, appuntamenti, colloqui, ordinare al bar o fare una telefonata importante. Niente copioni rigidi. Niente frasi artificiali. Solo inglese vero.",
-      imageSrc: "/Device-2.png",
+      imageSrc: "/screenshot03-profilo-rollpay.png",
       direction: "rtl" as const,
     },
     {
       title: "Correzione e feedback istantanei",
       description:
         "Mentre parli, espeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no). Impari parlando, non memorizzando.",
-      imageSrc: "/Device-3.png",
+      imageSrc: "/roleplays-running.png",
       direction: "ltr" as const,
     },
     {
       title: "Impara senza stress, al tuo ritmo",
       description:
         "Nessun giudizio. Nessuna ansia. Nessun orario fisso. Puoi praticare 5 minuti o un'ora intera. Quando vuoi. Dove vuoi.",
-      imageSrc: "/Device-4.png",
+      imageSrc: "/promemoria.png",
       direction: "rtl" as const,
     },
   ],
@@ -190,9 +190,9 @@ export const siteConfig = {
     {
       name: "Annuale",
       href: "#",
-      price: "€9,49",
+      price: "€9,99",
       period: "mese",
-      yearlyPrice: "€113,88",
+      yearlyPrice: "€113,99",
       features: [
         "Tutto incluso nel piano mensile",
         "Risparmio del 53% rispetto al mensile",
@@ -324,140 +324,12 @@ export const siteConfig = {
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
     },
     {
-      id: 9,
-      text: "Ho provato molte app ma questa è diversa. Non è solo esercizi, è vera conversazione. Mi sento più sicuro ogni giorno.",
-      name: "Isabella Conti",
-      role: "Insegnante",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
       id: 10,
       text: "L'AI capisce il mio livello e mi propone conversazioni adeguate. Non mi sento mai sopraffatto o annoiato.",
       name: "David Chen",
       role: "Business Analyst",
       image:
         "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 11,
-      text: "Perfetto per chi come me ha poco tempo. Pratico durante la pausa pranzo o in metropolitana. Flessibilità totale!",
-      name: "Francesca Romano",
-      role: "Consulente",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 12,
-      text: "Dopo 3 mesi con espeak, ho superato l'esame di inglese che mi serviva per lavoro. Non posso crederci!",
-      name: "Ahmed Hassan",
-      role: "Medico",
-      image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 13,
-      text: "La personalizzazione è la chiave. L'app impara come parlo e si adatta. È come avere un tutor privato sempre disponibile.",
-      name: "Giulia Moretti",
-      role: "Architetto",
-      image:
-        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 14,
-      text: "Niente più ansia da conversazione! Pratico in un ambiente sicuro e quando parlo con italiani reali sono molto più tranquilla.",
-      name: "Lisa Anderson",
-      role: "Digital Nomad",
-      image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 15,
-      text: "Ho migliorato la mia pronuncia più in un mese con espeak che in un anno di lezioni private. Il feedback continuo fa la differenza.",
-      name: "Roberto De Luca",
-      role: "Manager",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 16,
-      text: "Le conversazioni sono così naturali che a volte dimentico di stare usando un'app. È come parlare con un amico madrelingua!",
-      name: "Claire Dubois",
-      role: "Traduttrice",
-      image:
-        "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 17,
-      text: "Finalmente posso praticare senza vergognarmi degli errori. L'AI è paziente e mi aiuta a migliorare senza giudicarmi.",
-      name: "Tommaso Ricci",
-      role: "Studente universitario",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 18,
-      text: "Ho iniziato da zero e ora riesco a sostenere conversazioni base. Il progresso è costante e motivante.",
-      name: "Anna Kowalski",
-      role: "Infermiera",
-      image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 19,
-      text: "L'app si adatta perfettamente al mio livello intermedio. Le conversazioni sono sfidanti ma mai frustranti.",
-      name: "Paolo Verdi",
-      role: "Chef",
-      image:
-        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 20,
-      text: "Ho bisogno di inglese per lavoro e espeak mi ha preparato perfettamente. Ora gestisco riunioni e chiamate senza problemi.",
-      name: "Elena Santos",
-      role: "Project Manager",
-      image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 21,
-      text: "Il vocabolario che imparo è sempre rilevante per la vita quotidiana. Niente parole obsolete o inutili!",
-      name: "Michael Brown",
-      role: "Imprenditore",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 22,
-      text: "Mi piace che posso praticare situazioni specifiche come fare una prenotazione o chiedere indicazioni. Molto pratico!",
-      name: "Sofia Martinez",
-      role: "Turista frequente",
-      image:
-        "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEyfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 23,
-      text: "Dopo anni di studio passivo, finalmente parlo attivamente. espeak ha rotto la barriera della conversazione.",
-      name: "Carlos Mendez",
-      role: "Ingegnere",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 24,
-      text: "La grammatica finalmente ha senso perché la vedo applicata in contesti reali. Non è più solo teoria!",
-      name: "Yuki Tanaka",
-      role: "Studente di scambio",
-      image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 25,
-      text: "Ho provato molte app ma questa è la prima che mi fa sentire davvero capace di parlare inglese. Consigliatissima!",
-      name: "Alessandro Greco",
-      role: "Avvocato",
-      image:
-        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D",
     },
   ],
 };
