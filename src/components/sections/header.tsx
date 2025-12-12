@@ -90,7 +90,7 @@ export function Header() {
                 {siteConfig.cta}
               </Link>
             </div>
-            <div className="mt-2 cursor-pointer block lg:hidden">
+            <div className="cursor-pointer block lg:hidden flex items-center">
               <MobileDrawer />
             </div>
           </div>

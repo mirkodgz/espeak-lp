@@ -13,7 +13,7 @@ export function Testimonials() {
         {siteConfig.testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="bg-muted/60 overflow-hidden rounded-3xl flex flex-col h-fit"
+            className="bg-white overflow-hidden rounded-3xl flex flex-col h-fit shadow-sm"
             style={{
               gridRow: `span ${Math.floor(testimonial.text.length / 50) + 1}`,
             }}

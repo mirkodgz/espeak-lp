@@ -77,7 +77,8 @@ function Feature({
           <motion.p className="text-lg md:text-xl" variants={itemVariants}>
             {description}
           </motion.p>
-          <motion.div variants={itemVariants}>
+          {/* CTA "Inizia ora" oculto temporalmente - activar cuando tengamos el link */}
+          {/* <motion.div variants={itemVariants}>
             <Link
               href="#"
               className={cn(
@@ -88,7 +89,7 @@ function Feature({
             >
               {siteConfig.cta}
             </Link>
-          </motion.div>
+          </motion.div> */}
         </div>
       </motion.div>
       <div className="w-full lg:w-1/2">
@@ -131,7 +132,7 @@ export function FeatureHighlight() {
     <Section
       id="feature-highlight"
       title="Funzionalità"
-      subtitle="Scopri come funziona espeak"
+      subtitle="Scopri come funziona eSpeak"
       className="container px-10 mx-auto max-w-[var(--max-container-width)]"
       ref={containerRef}
     >

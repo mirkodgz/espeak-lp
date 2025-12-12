@@ -106,7 +106,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0); /* #fff */
+  --background: #F1F5F9;
   --foreground: oklch(11.439% 0.0069 261.028); /* #0d0c0f */
   --card: oklch(1 0 0); /* #fff */
   --card-foreground: oklch(11.439% 0.0069 261.028);

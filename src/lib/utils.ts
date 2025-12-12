@@ -24,6 +24,9 @@ export function constructMetadata({
   [key: string]: Metadata[keyof Metadata];
 }): Metadata {
   const siteUrl = process.env.NEXT_PUBLIC_APP_URL || siteConfig.url;
+  
+  // Convertir imagen relativa a absoluta si es necesario
+  const ogImage = image?.startsWith("http") ? image : absoluteUrl(image || "/og");
 
   return {
     metadataBase: new URL(siteUrl),
@@ -54,7 +57,7 @@ export function constructMetadata({
       siteName: siteConfig.name,
       images: [
         {
-          url: image,
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: title,
@@ -67,7 +70,7 @@ export function constructMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [image],
+      images: [ogImage],
     },
     icons: {
       icon: [{ url: "/icon.png" }],
