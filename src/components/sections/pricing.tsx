@@ -70,9 +70,9 @@ export function Pricing() {
               ))}
             </div>
             <Button
-              variant={plan.isPopular ? "default" : "outline"}
+              variant={"cta"}
               size="sm"
-              className={`rounded-full ${plan.isPopular ? 'text-white' : ''}`}
+              className="rounded-full"
             >
               {plan.buttonText}
               <ChevronRightIcon className="w-4 h-4 ml-1" />

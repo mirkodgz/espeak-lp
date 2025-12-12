@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type IconProps = React.HTMLAttributes<SVGElement>;
 type LogoProps = React.ImgHTMLAttributes<HTMLImageElement> & {
   className?: string;
@@ -8,27 +6,14 @@ type LogoProps = React.ImgHTMLAttributes<HTMLImageElement> & {
 
 export const Icons = {
   logo: ({ className, style, ...props }: LogoProps) => {
-    // Use regular img tag for og/route compatibility, Image component for regular pages
-    if (typeof window === "undefined" && style) {
-      // Server-side rendering for og/route
-      return (
-        <img
-          src="/espeak-logotipo-600px-height.png"
-          alt="eSpeak Logo"
-          className={className}
-          style={style}
-          {...props}
-        />
-      );
-    }
-    // Client-side or regular rendering
     return (
-      <Image
+      // Use plain <img> to work in both normal pages and `next/og` (ImageResponse),
+      // and to avoid prop type mismatches between <img> and next/image.
+      <img
         src="/espeak-logotipo-600px-height.png"
         alt="eSpeak Logo"
-        width={600}
-        height={600}
         className={className || "w-[135px] h-auto"}
+        style={style}
         {...props}
       />
     );

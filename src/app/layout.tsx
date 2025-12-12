@@ -10,7 +10,8 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = constructMetadata({
-  title: `${siteConfig.name} | ${siteConfig.description}`,
+  title: "espeak — la tua app per imparare inglese in modo veloce",
+  description: "Sblocca il tuo potenziale con il tuo tutor personale di AI English.",
 });
 
 export const viewport: Viewport = {
@@ -28,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="it"
       suppressHydrationWarning
       className={`${GeistSans.variable} ${GeistMono.variable} ${fontInter.variable}`}
     >

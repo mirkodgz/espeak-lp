@@ -81,8 +81,8 @@ function Feature({
             <Link
               href="#"
               className={cn(
-                buttonVariants({ variant: "default", size: "lg" }),
-                "text-white rounded-full group text-lg",
+                buttonVariants({ variant: "cta", size: "lg" }),
+                "rounded-full group text-lg",
                 "mx-auto lg:mx-0"
               )}
             >

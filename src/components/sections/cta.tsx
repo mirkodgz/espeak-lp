@@ -149,7 +149,7 @@ export function CTA() {
                 className={cn(
                   buttonVariants({
                     size: "lg",
-                    variant: "outline",
+                    variant: "cta",
                   }),
                   "group mt-4 rounded-[2rem] px-6"
                 )}

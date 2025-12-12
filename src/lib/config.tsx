@@ -11,7 +11,7 @@ export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
   name: "espeak",
-  description: "Sblocca il tuo inglese con il tuo tutor personale di AI",
+  description: "La tua app per imparare inglese in modo veloce.",
   cta: "Inizia ora",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
   hero: {
