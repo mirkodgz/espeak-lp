@@ -12,7 +12,7 @@ import "./globals.css";
 export const metadata: Metadata = constructMetadata({
   title: "eSpeak | Impara inglese con AI",
   description: "Sblocca il tuo potenziale con il tuo tutor personale di AI English.",
-  image: "/Copertina-espeak.jpg",
+  image: "/Immagine-Copertina-espeak.jpg",
 });
 
 export const viewport: Viewport = {
