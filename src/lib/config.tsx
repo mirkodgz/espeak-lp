@@ -10,10 +10,10 @@ import {
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "eSpeak",
+  name: "espeak",
   description: "La tua app per imparare inglese in modo veloce.",
   cta: "Inizia ora",
-  url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_APP_URL || "https://espeak.it",
   hero: {
     headlineTop: "Porta il tuo inglese al livello successivo con",
     headlineBottomPrefix: "il tuo tutor personale di",
@@ -21,7 +21,7 @@ export const siteConfig = {
     // Change this to "text-blue-600" if you want the Loora-like blue highlight
     highlightClassName: "text-primary",
     subheadline:
-      "Parla inglese con sicurezza fin dal primo giorno. eSpeak è il tuo partner di conversazione con intelligenza artificiale, progettato per aiutarti a pensare, parlare ed esprimerti come un vero madrelingua.",
+      "Parla inglese con sicurezza fin dal primo giorno. espeak è il tuo partner di conversazione con intelligenza artificiale, progettato per aiutarti a pensare, parlare ed esprimerti come un vero madrelingua.",
     availability: "📲 Disponibile su App Store e Google Play",
   },
   keywords: [
@@ -93,7 +93,7 @@ export const siteConfig = {
     {
       title: "Correzione e feedback istantanei",
       description:
-        "Mentre parli, eSpeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no). Impari parlando, non memorizzando.",
+        "Mentre parli, espeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no). Impari parlando, non memorizzando.",
       imageSrc: "/roleplays-running.png",
       direction: "ltr" as const,
     },
@@ -109,7 +109,7 @@ export const siteConfig = {
     {
       title: "Un partner di conversazione con AI creato per farti parlare davvero",
       content:
-        "eSpeak non è un corso tradizionale. È un'esperienza di conversazione reale, alimentata dall'intelligenza artificiale, che si adatta al tuo livello, ai tuoi obiettivi e al tuo ritmo. Pratichi l'inglese come si usa nella vita reale: con errori, correzioni, contesto e fluidità.",
+        "espeak non è un corso tradizionale. È un'esperienza di conversazione reale, alimentata dall'intelligenza artificiale, che si adatta al tuo livello, ai tuoi obiettivi e al tuo ritmo. Pratichi l'inglese come si usa nella vita reale: con errori, correzioni, contesto e fluidità.",
       imageSrc: "/Device-1.png",
       imageAlt: "Partner conversazione AI",
       fullWidth: true,
@@ -125,7 +125,7 @@ export const siteConfig = {
     {
       title: "Feedback immediato",
       content:
-        "Mentre parli, eSpeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no).",
+        "Mentre parli, espeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no).",
       imageSrc: "/Device-3.png",
       imageAlt: "Feedback immediato",
       fullWidth: false,
@@ -133,7 +133,7 @@ export const siteConfig = {
     {
       title: "Personalizzazione",
       content:
-        "eSpeak si adatta al tuo livello (base, intermedio, avanzato), al tuo accento e modo di parlare, e ai tuoi obiettivi personali o professionali. Ogni conversazione è diversa, perché tu sei diverso.",
+        "espeak si adatta al tuo livello (base, intermedio, avanzato), al tuo accento e modo di parlare, e ai tuoi obiettivi personali o professionali. Ogni conversazione è diversa, perché tu sei diverso.",
       imageSrc: "/Device-4.png",
       imageAlt: "Personalizzazione",
       fullWidth: true,
@@ -213,18 +213,18 @@ export const siteConfig = {
   ],
   faqs: [
     {
-      question: "Come funziona eSpeak?",
+      question: "Come funziona espeak?",
       answer: (
         <span>
-          eSpeak è un tutor di conversazione con intelligenza artificiale che ti permette di praticare l'inglese attraverso conversazioni reali. L'AI si adatta al tuo livello, corregge i tuoi errori in tempo reale e ti aiuta a migliorare pronuncia, grammatica e vocabolario mentre parli.
+          espeak è un tutor di conversazione con intelligenza artificiale che ti permette di praticare l'inglese attraverso conversazioni reali. L'AI si adatta al tuo livello, corregge i tuoi errori in tempo reale e ti aiuta a migliorare pronuncia, grammatica e vocabolario mentre parli.
         </span>
       ),
     },
     {
-      question: "Devo avere già un livello avanzato per usare eSpeak?",
+      question: "Devo avere già un livello avanzato per usare espeak?",
       answer: (
         <span>
-          No, eSpeak si adatta a tutti i livelli: base, intermedio e avanzato. L'AI personalizza le conversazioni in base alle tue capacità attuali e ai tuoi obiettivi, permettendoti di progredire al tuo ritmo.
+          No, espeak si adatta a tutti i livelli: base, intermedio e avanzato. L'AI personalizza le conversazioni in base alle tue capacità attuali e ai tuoi obiettivi, permettendoti di progredire al tuo ritmo.
         </span>
       ),
     },
@@ -232,15 +232,15 @@ export const siteConfig = {
       question: "Quanto tempo devo dedicare ogni giorno?",
       answer: (
         <span>
-          Non c'è un tempo minimo richiesto. Puoi praticare quando vuoi, anche solo 5 minuti al giorno. La flessibilità è uno dei punti di forza di eSpeak: impari senza stress e senza orari fissi.
+          Non c'è un tempo minimo richiesto. Puoi praticare quando vuoi, anche solo 5 minuti al giorno. La flessibilità è uno dei punti di forza di espeak: impari senza stress e senza orari fissi.
         </span>
       ),
     },
     {
-      question: "Cosa rende eSpeak diverso da altri corsi di inglese?",
+      question: "Cosa rende espeak diverso da altri corsi di inglese?",
       answer: (
         <span>
-          eSpeak non è un corso tradizionale con lezioni strutturate. È un'esperienza di conversazione reale dove pratichi l'inglese come si usa nella vita quotidiana, con feedback immediato e personalizzazione totale. Impari parlando, non memorizzando.
+          espeak non è un corso tradizionale con lezioni strutturate. È un'esperienza di conversazione reale dove pratichi l'inglese come si usa nella vita quotidiana, con feedback immediato e personalizzazione totale. Impari parlando, non memorizzando.
         </span>
       ),
     },
@@ -260,7 +260,7 @@ export const siteConfig = {
   testimonials: [
     {
       id: 1,
-      text: "Senza esagerare, eSpeak è il modo più naturale e veloce con cui ho imparato a parlare inglese. Finalmente riesco a conversare senza ansia!",
+      text: "Senza esagerare, espeak è il modo più naturale e veloce con cui ho imparato a parlare inglese. Finalmente riesco a conversare senza ansia!",
       name: "Maria Rodriguez",
       role: "Studentessa universitaria",
       image:
@@ -276,7 +276,7 @@ export const siteConfig = {
     },
     {
       id: 3,
-      text: "Mi trasferisco a Milano per lavoro e avevo bisogno di migliorare velocemente. eSpeak mi ha dato la sicurezza per affrontare colloqui e riunioni in inglese.",
+      text: "Mi trasferisco a Milano per lavoro e avevo bisogno di migliorare velocemente. espeak mi ha dato la sicurezza per affrontare colloqui e riunioni in inglese.",
       name: "Sophie Martin",
       role: "Marketing Manager",
       image:
@@ -292,7 +292,7 @@ export const siteConfig = {
     },
     {
       id: 5,
-      text: "Capivo l'inglese ma non riuscivo a parlare. Con eSpeak ho superato il blocco e ora converso tranquillamente con i miei colleghi.",
+      text: "Capivo l'inglese ma non riuscivo a parlare. Con espeak ho superato il blocco e ora converso tranquillamente con i miei colleghi.",
       name: "Emma Wilson",
       role: "Designer",
       image:

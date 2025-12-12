@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "eSpeak | Impara inglese con AI",
-  short_name: "eSpeak",
+    name: "espeak | Impara inglese con AI",
+  short_name: "espeak",
     description: "Sblocca il tuo potenziale con il tuo tutor personale di AI English.",
     start_url: "/",
     display: "standalone",

@@ -132,7 +132,7 @@ export function FeatureHighlight() {
     <Section
       id="feature-highlight"
       title="Funzionalità"
-      subtitle="Scopri come funziona eSpeak"
+      subtitle="Scopri come funziona espeak"
       className="container px-10 mx-auto max-w-[var(--max-container-width)]"
       ref={containerRef}
     >

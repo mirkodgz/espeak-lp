@@ -3,7 +3,7 @@ import { Header } from "@/components/sections/header";
 import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Termini e Condizioni | eSpeak",
+  title: "Termini e Condizioni | espeak",
 };
 
 export default function TermsAndConditionsPage() {
@@ -125,7 +125,7 @@ export default function TermsAndConditionsPage() {
         <section id="app-servizi">
           <h2><strong>1.</strong> L'App e i Servizi</h2>
           <p>
-            <strong>eSpeak</strong> è un software di apprendimento linguistico che consente agli utenti di imparare e migliorare l'inglese attraverso lezioni interattive basate su conversazioni con un tutor alimentato da intelligenza artificiale (i "<strong>Servizi</strong>").
+            <strong>espeak</strong> è un software di apprendimento linguistico che consente agli utenti di imparare e migliorare l'inglese attraverso lezioni interattive basate su conversazioni con un tutor alimentato da intelligenza artificiale (i "<strong>Servizi</strong>").
           </p>
           <p>
             I <strong>Servizi</strong> possono includere l'invio di notifiche push, messaggi, email, avvisi e comunicazioni tramite diversi mezzi. Inoltre, i Servizi possono includere pubblicità di terze parti e/o contenuti commerciali.
@@ -153,7 +153,7 @@ export default function TermsAndConditionsPage() {
             Devi fornire informazioni di registrazione <strong>accurate, complete e aggiornate</strong>, nel rispetto di tutte le leggi, regole e normative applicabili. Non puoi: <strong>(i)</strong> impersonare un'altra persona; <strong>(ii)</strong> utilizzare come nome utente un nome soggetto a diritti di terzi senza adeguata autorizzazione; o <strong>(iii)</strong> utilizzare l'account di un altro utente senza permesso.
           </p>
           <p>
-            <strong>eSpeak</strong> si riserva il diritto di rifiutare la registrazione o bloccare l'accesso all'<strong>App</strong> a propria esclusiva discrezione. Sei l'unico responsabile delle attività che avvengono tramite il tuo account e devi mantenere al sicuro le tue credenziali. Devi notificare immediatamente a espeak qualsiasi violazione di sicurezza o utilizzo non autorizzato del tuo account. <strong>espeak</strong> non sarà responsabile per perdite causate da utilizzi non autorizzati del tuo account.
+            <strong>espeak</strong> si riserva il diritto di rifiutare la registrazione o bloccare l'accesso all'<strong>App</strong> a propria esclusiva discrezione. Sei l'unico responsabile delle attività che avvengono tramite il tuo account e devi mantenere al sicuro le tue credenziali. Devi notificare immediatamente a espeak qualsiasi violazione di sicurezza o utilizzo non autorizzato del tuo account. <strong>espeak</strong> non sarà responsabile per perdite causate da utilizzi non autorizzati del tuo account.
           </p>
         </section>
 
@@ -167,14 +167,14 @@ export default function TermsAndConditionsPage() {
             Riconosci e accetti di essere l'unico responsabile di tutte le tariffe e gli addebiti applicabili (incluse eventuali imposte), nonché di tutti gli acquisti effettuati da te o da chiunque abbia utilizzato il tuo account.
           </p>
           <p>
-            eSpeak utilizza processori di pagamento di terze parti, come Apple App Store e/o Google Play Store e/o altri fornitori (se applicabile), per facilitare i pagamenti dei Servizi. Il tuo acquisto sarà soggetto alle policy di pagamento, termini d'uso, policy rimborsi e altre policy applicabili del relativo processore. Puoi annullare un abbonamento a pagamento tramite il relativo processore di pagamento secondo i suoi termini e le sue policy.
+            espeak utilizza processori di pagamento di terze parti, come Apple App Store e/o Google Play Store e/o altri fornitori (se applicabile), per facilitare i pagamenti dei Servizi. Il tuo acquisto sarà soggetto alle policy di pagamento, termini d'uso, policy rimborsi e altre policy applicabili del relativo processore. Puoi annullare un abbonamento a pagamento tramite il relativo processore di pagamento secondo i suoi termini e le sue policy.
           </p>
           <h3>3.2 Periodi di prova</h3>
           <p>
             Quando sottoscrivi <strong>Contenuti a Pagamento</strong>, <strong>espeak</strong> può, di volta in volta e a propria esclusiva discrezione, offrire un periodo di prova in cui tali Contenuti a Pagamento possono essere accessibili senza pagamento o a tariffa ridotta ("<strong>Periodo di Prova</strong>"). Il Periodo di Prova può variare in base a promozioni, tipo di abbonamento e durata selezionata al momento dell'acquisto.
           </p>
           <p>
-            eSpeak si riserva il diritto di determinare la tua idoneità al Periodo di Prova e di annullare o modificare i termini del Periodo di Prova in qualsiasi momento, nei limiti consentiti dalla legge applicabile. espeak può richiederti di fornire informazioni di pagamento valide per iniziare il Periodo di Prova.
+            espeak si riserva il diritto di determinare la tua idoneità al Periodo di Prova e di annullare o modificare i termini del Periodo di Prova in qualsiasi momento, nei limiti consentiti dalla legge applicabile. espeak può richiederti di fornire informazioni di pagamento valide per iniziare il Periodo di Prova.
           </p>
           <p>
             Fornendo tali informazioni, accetti che, salvo annullamento prima della fine del Periodo di Prova, espeak possa iniziare automaticamente ad addebitarti i Contenuti a Pagamento a partire dal primo giorno successivo alla fine del Periodo di Prova, con cadenza mensile (o altra ricorrenza indicata), fino a quando non annullerai l'abbonamento tramite Apple App Store / Google Play Store (o altro processore applicabile). Se non desideri addebiti, devi annullare prima della fine del Periodo di Prova. In caso di annullamento, il tuo account avrà accesso solo alle parti gratuite dei Servizi.
@@ -185,7 +185,7 @@ export default function TermsAndConditionsPage() {
           <h2><strong>4.</strong> Proprietà intellettuale e licenza</h2>
           <h3><strong>4.1</strong> Titolarità</h3>
           <p>
-            <strong>eSpeak</strong> mantiene ogni diritto, titolo e interesse sull'<strong>App</strong> e sui <strong>Servizi</strong> (inclusi tutti i diritti di proprietà intellettuale correlati). Fatto salvo quanto previsto nei presenti <strong>Termini e Condizioni</strong>, espeak ti concede una licenza limitata, non trasferibile, non esclusiva, non cedibile, non sublicenziabile per accedere e utilizzare i Servizi e l'App, a condizione che tu non alteri o modifichi alcuna parte dei Servizi se non quanto ragionevolmente necessario per l'uso previsto.
+            <strong>espeak</strong> mantiene ogni diritto, titolo e interesse sull'<strong>App</strong> e sui <strong>Servizi</strong> (inclusi tutti i diritti di proprietà intellettuale correlati). Fatto salvo quanto previsto nei presenti <strong>Termini e Condizioni</strong>, espeak ti concede una licenza limitata, non trasferibile, non esclusiva, non cedibile, non sublicenziabile per accedere e utilizzare i Servizi e l'App, a condizione che tu non alteri o modifichi alcuna parte dei Servizi se non quanto ragionevolmente necessario per l'uso previsto.
           </p>
           <h3><strong>4.2</strong> Contenuti di espeak</h3>
           <p>
@@ -270,7 +270,7 @@ export default function TermsAndConditionsPage() {
         <section id="cessazione">
           <h2><strong>9.</strong> Cessazione (Termination)</h2>
           <p>
-            eSpeak può terminare o sospendere la tua licenza, account e accesso all'App e/o ai Servizi (o parte di essi) immediatamente, senza preavviso e senza responsabilità, in caso di violazione dei presenti Termini e Condizioni o per motivi di sicurezza/legali.
+            espeak può terminare o sospendere la tua licenza, account e accesso all'App e/o ai Servizi (o parte di essi) immediatamente, senza preavviso e senza responsabilità, in caso di violazione dei presenti Termini e Condizioni o per motivi di sicurezza/legali.
           </p>
           <p>
             Le disposizioni che per loro natura devono sopravvivere alla cessazione (incluse, a titolo esemplificativo, proprietà, esclusioni di garanzia, indennizzo e limitazioni di responsabilità) resteranno in vigore. La cessazione non ti libera da obblighi maturati prima della cessazione.
@@ -290,13 +290,13 @@ export default function TermsAndConditionsPage() {
             RICONOSCI ESPRESSAMENTE CHE L'USO DELL'APP E DEI SERVIZI È A TUO ESCLUSIVO RISCHIO E CHE L'INTERO RISCHIO RELATIVO A QUALITÀ, PRESTAZIONI, ACCURATEZZA E IDONEITÀ RIMANE A TUO CARICO. L'APP E I SERVIZI SONO FORNITI "COSÌ COME SONO" E "COME DISPONIBILI", SENZA ALCUNA GARANZIA DI ALCUN TIPO.
           </p>
           <p>
-            eSpeak non garantisce che l'uso dei Servizi sarà ininterrotto o privo di errori, né che soddisferà requisiti specifici. espeak non fornisce garanzie, espresse o implicite, in relazione all'App, ai Servizi, ai Contenuti e al tuo utilizzo, incluse (ma non limitate a) garanzie implicite di commerciabilità, idoneità a uno scopo particolare, accuratezza, disponibilità, sicurezza, compatibilità, non violazione o completezza di risposte e risultati.
+            espeak non garantisce che l'uso dei Servizi sarà ininterrotto o privo di errori, né che soddisferà requisiti specifici. espeak non fornisce garanzie, espresse o implicite, in relazione all'App, ai Servizi, ai Contenuti e al tuo utilizzo, incluse (ma non limitate a) garanzie implicite di commerciabilità, idoneità a uno scopo particolare, accuratezza, disponibilità, sicurezza, compatibilità, non violazione o completezza di risposte e risultati.
           </p>
           <p>
             L'APP È BASATA SU INTELLIGENZA ARTIFICIALE E MACHINE LEARNING. CIÒ SIGNIFICA CHE L'APP PUÒ RISPONDERE AI TUOI INPUT E CONVERSARE CON TE. L'OUTPUT DELL'APP, SPECIE NEL CORSO DI CONVERSAZIONI O INTERAZIONI ITERATIVE, DIPENDE IN MODO SIGNIFICATIVO DAI TUOI INPUT. L'APP VIETA L'INSERIMENTO DI CONTENUTI ESPLICITI, OSCENI, OFFENSIVI, ABUSIVI, RAZZISTI, BASATI SU ODIO O SIMILI. QUALSIASI RISPOSTA GENERATA IN AUTONOMIA IN RELAZIONE A CONTENUTI PROIBITI (O AD ALTRI CONTENUTI INSERITI) NON È APPROVATA DA espeak ED È A TUO ESCLUSIVO RISCHIO E RESPONSABILITÀ. espeak NON È RESPONSABILE PER IL CONTENUTO DI TALI RISPOSTE.
           </p>
           <p>
-            eSpeak non fornisce servizi medici o psicologici e declina ogni responsabilità in tal senso. Se ritieni di avere un'emergenza medica o di salute mentale, contatta i servizi di emergenza o recati presso la struttura sanitaria più vicina.
+            espeak non fornisce servizi medici o psicologici e declina ogni responsabilità in tal senso. Se ritieni di avere un'emergenza medica o di salute mentale, contatta i servizi di emergenza o recati presso la struttura sanitaria più vicina.
           </p>
           <p>
             Se stai considerando il suicidio o ritieni di essere un pericolo per te stesso o per altri, devi interrompere immediatamente l'uso dei Servizi e contattare i servizi di emergenza o il personale medico competente.
@@ -319,7 +319,7 @@ export default function TermsAndConditionsPage() {
             Su prima richiesta, accetti di difendere, manlevare e tenere indenne espeak, i suoi titolari, amministratori, direttori, dipendenti e collaboratori da qualsiasi pretesa, responsabilità, costo, perdita, danno e spesa (incluse ragionevoli spese legali) derivanti da e/o causati da: (i) tuo uso, abuso o attività connesse all'App e/o ai Servizi; (ii) violazione dei presenti Termini e Condizioni o di diritti di terzi (inclusi diritti privacy o proprietà intellettuale); (iii) danni causati a terzi in relazione all'App.
           </p>
           <p>
-            eSpeak si riserva il diritto, a proprie spese, di assumere la difesa e il controllo esclusivi di qualsiasi questione soggetta a manleva; ciò non esonera i tuoi obblighi di manleva, e in tal caso collaborerai pienamente. Non potrai definire transazioni relative a questioni soggette a manleva senza previo consenso scritto di espeak.
+            espeak si riserva il diritto, a proprie spese, di assumere la difesa e il controllo esclusivi di qualsiasi questione soggetta a manleva; ciò non esonera i tuoi obblighi di manleva, e in tal caso collaborerai pienamente. Non potrai definire transazioni relative a questioni soggette a manleva senza previo consenso scritto di espeak.
           </p>
         </section>
 
@@ -345,10 +345,10 @@ export default function TermsAndConditionsPage() {
             Riconosci che l'App può consumare banda del tuo piano dati mobile, ad esempio per caricare registrazioni audio e/o altri contenuti, se e nei limiti in cui tu lo consenta e come descritto anche nella Privacy Policy.
           </p>
           <p>
-            eSpeak può modificare, sospendere o interrompere l'App e/o i Servizi (o parte di essi) in qualsiasi momento, inclusa la disponibilità di funzionalità o contenuti, senza preavviso o responsabilità.
+            espeak può modificare, sospendere o interrompere l'App e/o i Servizi (o parte di essi) in qualsiasi momento, inclusa la disponibilità di funzionalità o contenuti, senza preavviso o responsabilità.
           </p>
           <p>
-            eSpeak può cedere a terzi i propri diritti e/o obblighi ai sensi dei presenti Termini e Condizioni senza il tuo consenso.
+            espeak può cedere a terzi i propri diritti e/o obblighi ai sensi dei presenti Termini e Condizioni senza il tuo consenso.
           </p>
           <p>
             Per domande sui presenti Termini e Condizioni o sull'App/Servizi, puoi contattarci a: <a href="mailto:support@espeak.it">support@espeak.it</a> oppure al numero +39 347 760 6837.

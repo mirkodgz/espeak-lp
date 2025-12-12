@@ -3,7 +3,7 @@ import { Header } from "@/components/sections/header";
 import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | eSpeak",
+  title: "Privacy Policy | espeak",
 };
 
 export default function PrivacyPolicyPage() {
@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
       >
         <section id="introduction">
           <p>
-            <strong>eSpeak</strong> respects your privacy and is committed to
+            <strong>espeak</strong> respects your privacy and is committed to
             protecting the personal data that you share with us. In general, you
             may browse our website without providing any personal data about
             yourself (except for cookies and similar technologies, as described
@@ -115,7 +115,7 @@ export default function PrivacyPolicyPage() {
           <h2>Who is responsible for the processing of your personal data?</h2>
           <p>The entity responsible for the processing of your personal data is:</p>
           <p>
-            <strong>eSpeak</strong>
+            <strong>espeak</strong>
             <br />
             Email: <a href="mailto:support@espeak.it">support@espeak.it</a>
             <br />
@@ -124,7 +124,7 @@ export default function PrivacyPolicyPage() {
             Address: Milano, Italy
           </p>
           <p>
-            In this <strong>Privacy Policy</strong>, <strong>eSpeak</strong> may be referred to as "eSpeak", "we",
+            In this <strong>Privacy Policy</strong>, <strong>espeak</strong> may be referred to as "espeak", "we",
             "us" or "our".
           </p>
         </section>
@@ -290,7 +290,7 @@ export default function PrivacyPolicyPage() {
             <li>When required for audits, security investigations, fraud prevention or legal claims;</li>
             <li>
               When required by law, regulation or legal process, or to protect the rights, safety
-              or property of eSpeak, users or the public.
+              or property of espeak, users or the public.
             </li>
           </ul>
           <p>We do not sell Personal Data to third parties for their own marketing purposes.</p>
@@ -312,7 +312,7 @@ export default function PrivacyPolicyPage() {
         <section id="retention">
           <h2>Data retention</h2>
           <p>
-            <strong>eSpeak</strong> retains <strong>Personal Data</strong> only for as long as necessary to fulfill the purposes for
+            <strong>espeak</strong> retains <strong>Personal Data</strong> only for as long as necessary to fulfill the purposes for
             which it was collected, unless a longer retention period is required or permitted by law.
           </p>
           <p>
@@ -354,7 +354,7 @@ export default function PrivacyPolicyPage() {
           <h2>Third-party websites and services</h2>
           <p>
             Our website and <strong>App</strong> may contain links to third-party websites, applications or services.
-            <strong>eSpeak</strong> is not responsible for the privacy practices of such third parties.
+            <strong>espeak</strong> is not responsible for the privacy practices of such third parties.
           </p>
           <p>
             We encourage you to review the privacy policies of any third-party services you access.
