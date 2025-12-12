@@ -8,7 +8,8 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function absoluteUrl(path: string) {
-  return `${process.env.NEXT_PUBLIC_APP_URL || siteConfig.url}${path}`;
+  const base = process.env.NEXT_PUBLIC_APP_URL || siteConfig.url;
+  return `${base}${path}`;
 }
 
 export function constructMetadata({
@@ -22,17 +23,34 @@ export function constructMetadata({
   image?: string;
   [key: string]: Metadata[keyof Metadata];
 }): Metadata {
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || siteConfig.url;
+
   return {
+    metadataBase: new URL(siteUrl),
     title: {
-      template: "%s | " + siteConfig.name,
+      template: `%s | ${siteConfig.name}`,
       default: siteConfig.name,
     },
     description: description || siteConfig.description,
     keywords: siteConfig.keywords,
+    alternates: {
+      canonical: siteUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    },
     openGraph: {
       title,
       description,
-      url: siteConfig.url,
+      url: siteUrl,
       siteName: siteConfig.name,
       images: [
         {
@@ -43,14 +61,23 @@ export function constructMetadata({
         },
       ],
       type: "website",
-      locale: "en_US",
+      locale: "it_IT",
     },
-    icons: "/favicon.ico",
-    metadataBase: new URL(siteConfig.url),
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
+    icons: {
+      icon: [{ url: "/icon.png" }],
+      apple: [{ url: "/apple-icon.png" }],
+      shortcut: [{ url: "/favicon.ico" }],
+    },
     authors: [
       {
         name: siteConfig.name,
-        url: siteConfig.url,
+        url: siteUrl,
       },
     ],
     ...props,

@@ -29,6 +29,13 @@ export const siteConfig = {
     "AI tutor inglese",
     "Conversazione inglese",
     "App inglese",
+    "Parlare inglese",
+    "Pronuncia inglese",
+    "Grammatica inglese",
+    "Vocabolario inglese",
+    "English speaking practice",
+    "AI English tutor",
+    "Imparare inglese velocemente",
   ],
   links: {
     email: "support@espeak.it",

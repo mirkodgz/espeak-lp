@@ -21,10 +21,22 @@ export function Header() {
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setIsVisible(currentScrollY <= lastScrollY);
+      // En mobile, el header siempre está visible
+      const isMobile = window.innerWidth < 1024; // lg breakpoint
+      if (isMobile) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(currentScrollY <= lastScrollY);
+      }
       setAddBorder(currentScrollY > 20);
       lastScrollY = currentScrollY;
     };
+
+    // Verificar si es mobile al cargar
+    const isMobile = window.innerWidth < 1024;
+    if (isMobile) {
+      setIsVisible(true);
+    }
 
     window.addEventListener("scroll", handleScroll);
 

@@ -16,7 +16,7 @@ export function MobileDrawer() {
   return (
     <Drawer>
       <DrawerTrigger>
-        <IoMenuSharp className="text-2xl" />
+        <IoMenuSharp className="text-2xl text-white" />
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader className="px-6">
