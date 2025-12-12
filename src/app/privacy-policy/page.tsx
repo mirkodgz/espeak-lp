@@ -86,11 +86,11 @@ export default function PrivacyPolicyPage() {
         className={[
           "prose prose-zinc mt-10 max-w-none dark:prose-invert",
           "prose-headings:scroll-mt-24 prose-headings:tracking-tight",
-          "prose-h2:text-2xl prose-h2:font-semibold prose-h2:mt-10",
-          "prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-6",
-          "prose-p:leading-7",
+          "prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-12 prose-h2:mb-6",
+          "prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-8 prose-h3:mb-4",
+          "prose-p:leading-8 prose-p:mb-6",
           "prose-a:text-primary prose-a:no-underline hover:prose-a:underline",
-          "prose-ul:my-4 prose-li:my-1",
+          "prose-ul:my-4 prose-li:my-2",
         ].join(" ")}
       >
         <section id="introduction">
@@ -99,14 +99,14 @@ export default function PrivacyPolicyPage() {
             protecting the personal data that you share with us. In general, you
             may browse our website without providing any personal data about
             yourself (except for cookies and similar technologies, as described
-            in this Privacy Policy).
+            in this <strong>Privacy Policy</strong>).
           </p>
           <p>
             When you choose to use our website or our application, an AI-powered
           tool designed to help users improve and achieve fluency in the
-          English language (the “App” or the “Services”), or when you
+          English language (the "<strong>App</strong>" or the "<strong>Services</strong>"), or when you
             voluntarily provide us with personal data (for example, when
-            contacting support), this Privacy Policy explains how we collect,
+            contacting support), this <strong>Privacy Policy</strong> explains how we collect,
             use, store and protect your personal information.
           </p>
         </section>
@@ -124,8 +124,8 @@ export default function PrivacyPolicyPage() {
             Address: Milano, Italy
           </p>
           <p>
-            In this Privacy Policy, espeak may be referred to as “espeak”, “we”,
-            “us” or “our”.
+            In this <strong>Privacy Policy</strong>, <strong>espeak</strong> may be referred to as "espeak", "we",
+            "us" or "our".
           </p>
         </section>
 
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
 
           <h3>Non-Personal Data</h3>
           <p>
-            “Non-Personal Data” means information that does not identify a
+            "<strong>Non-Personal Data</strong>" means information that does not identify a
             specific natural person and cannot reasonably be used to identify
             such a person.
           </p>
@@ -157,7 +157,7 @@ export default function PrivacyPolicyPage() {
 
           <h3>Personal Data</h3>
           <p>
-            “Personal Data” means any information that may be used to identify an
+            "<strong>Personal Data</strong>" means any information that may be used to identify an
             individual, directly or indirectly, including but not limited to:
           </p>
           <ul>
@@ -172,18 +172,18 @@ export default function PrivacyPolicyPage() {
             <li>any other information required to provide the Services you request</li>
           </ul>
           <p>
-            We process Personal Data in accordance with applicable data
-            protection laws, including the GDPR, and based on one or more lawful
+            We process <strong>Personal Data</strong> in accordance with applicable data
+            protection laws, including the <strong>GDPR</strong>, and based on one or more lawful
             bases, as detailed below.
           </p>
 
           <h3>Information used to provide the Services</h3>
           <p>
-            We may collect and store Personal Data such as name, email address,
+            We may collect and store <strong>Personal Data</strong> such as name, email address,
             telephone number and other contact information in order to provide
-            access to the App and Services.
+            access to the <strong>App</strong> and <strong>Services</strong>.
           </p>
-          <p>We may also collect and process information related to your use of the App, including:</p>
+          <p>We may also collect and process information related to your use of the <strong>App</strong>, including:</p>
           <ul>
             <li>information provided during AI-powered lessons or conversations</li>
             <li>transcripts generated during lessons</li>
@@ -192,14 +192,14 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>
             The legal basis for this processing is the performance of a contract
-            between you and espeak and the necessity to provide the Services you
+            between you and <strong>espeak</strong> and the necessity to provide the <strong>Services</strong> you
             request.
           </p>
 
           <h3>Information for customer support and inquiries</h3>
           <p>
-            When you contact espeak for support, assistance or information, we
-            may collect and store Personal Data such as your name, email address,
+            When you contact <strong>espeak</strong> for support, assistance or information, we
+            may collect and store <strong>Personal Data</strong> such as your name, email address,
             telephone number and the content of your communication.
           </p>
           <p>
@@ -214,7 +214,7 @@ export default function PrivacyPolicyPage() {
 
           <h3>Information for maintenance and improvement of the Services</h3>
           <p>
-            We may use Personal Data and technical information, such as IP
+            We may use <strong>Personal Data</strong> and technical information, such as IP
             addresses, server logs, cookies, local storage technologies, pixel
             tags or similar tools, to:
           </p>
@@ -227,11 +227,11 @@ export default function PrivacyPolicyPage() {
           <p>
             We may also use conversation data and interaction data, in aggregated
             or anonymized form where possible, to train, improve and optimize our
-            AI models and algorithms.
+            <strong>AI models</strong> and algorithms.
           </p>
           <p>
             The legal basis for this processing is our legitimate interest in
-            improving and securing our Services, as well as the performance of our
+            improving and securing our <strong>Services</strong>, as well as the performance of our
             contract with you.
           </p>
 
@@ -299,24 +299,24 @@ export default function PrivacyPolicyPage() {
         <section id="international-transfers">
           <h2>International data transfers</h2>
           <p>
-            Personal Data may be transferred to recipients located outside the European Union or
-            European Economic Area.
+            <strong>Personal Data</strong> may be transferred to recipients located outside the <strong>European Union</strong> or
+            <strong>European Economic Area</strong>.
           </p>
           <p>
             Where such transfers occur, and where the recipient country does not provide an adequate
-            level of data protection, espeak relies on appropriate safeguards, including Standard
-            Contractual Clauses approved by the European Commission.
+            level of data protection, <strong>espeak</strong> relies on appropriate safeguards, including <strong>Standard
+            Contractual Clauses</strong> approved by the European Commission.
           </p>
         </section>
 
         <section id="retention">
           <h2>Data retention</h2>
           <p>
-            espeak retains Personal Data only for as long as necessary to fulfill the purposes for
+            <strong>espeak</strong> retains <strong>Personal Data</strong> only for as long as necessary to fulfill the purposes for
             which it was collected, unless a longer retention period is required or permitted by law.
           </p>
           <p>
-            Once no longer necessary, Personal Data is securely deleted or anonymized. Aggregated and
+            Once no longer necessary, <strong>Personal Data</strong> is securely deleted or anonymized. Aggregated and
             anonymized statistical data may be retained indefinitely.
           </p>
         </section>
@@ -341,7 +341,7 @@ export default function PrivacyPolicyPage() {
         <section id="security">
           <h2>Data security</h2>
           <p>
-            We implement appropriate technical and organizational measures to protect Personal Data
+            We implement appropriate technical and organizational measures to protect <strong>Personal Data</strong>
             against unauthorized access, loss, alteration or disclosure.
           </p>
           <p>
@@ -353,8 +353,8 @@ export default function PrivacyPolicyPage() {
         <section id="third-parties">
           <h2>Third-party websites and services</h2>
           <p>
-            Our website and App may contain links to third-party websites, applications or services.
-            espeak is not responsible for the privacy practices of such third parties.
+            Our website and <strong>App</strong> may contain links to third-party websites, applications or services.
+            <strong>espeak</strong> is not responsible for the privacy practices of such third parties.
           </p>
           <p>
             We encourage you to review the privacy policies of any third-party services you access.
@@ -364,7 +364,7 @@ export default function PrivacyPolicyPage() {
         <section id="changes">
           <h2>Changes to this Privacy Policy</h2>
           <p>
-            We may update this Privacy Policy from time to time. Any material changes will be posted
+            We may update this <strong>Privacy Policy</strong> from time to time. Any material changes will be posted
             on this page and, where required by law, notified to you.
           </p>
         </section>
@@ -372,15 +372,15 @@ export default function PrivacyPolicyPage() {
         <section id="inquiries">
           <h2>Privacy inquiries</h2>
           <p>
-            If you have any questions or concerns regarding this Privacy Policy or the processing of
-            your Personal Data, please contact:
+            If you have any questions or concerns regarding this <strong>Privacy Policy</strong> or the processing of
+            your <strong>Personal Data</strong>, please contact:
           </p>
           <p>
-            📧 <a href="mailto:support@espeak.it">support@espeak.it</a>
+            Email: <a href="mailto:support@espeak.it">support@espeak.it</a>
             <br />
-            📞 +39 347 760 6837
+            Telefono: +39 347 760 6837
             <br />
-            📍 Milano, Italy
+            Indirizzo: Milano, Italy
           </p>
           <p>
             If you are a resident of the EU/EEA, you also have the right to lodge a complaint with

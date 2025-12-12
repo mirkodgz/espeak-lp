@@ -29,7 +29,7 @@ export function constructMetadata({
     metadataBase: new URL(siteUrl),
     title: {
       template: `%s | ${siteConfig.name}`,
-      default: siteConfig.name,
+      default: title || siteConfig.name,
     },
     description: description || siteConfig.description,
     keywords: siteConfig.keywords,

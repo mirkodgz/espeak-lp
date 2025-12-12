@@ -61,9 +61,9 @@ const Section = forwardRef<HTMLElement, SectionProps>(
                 <motion.h3
                   className={cn(
                     // Keep section headings visually consistent across breakpoints:
-                    // - Subtitle (main heading): 40px
+                    // - Subtitle (main heading): 36px (mobile)
                     // - Body/description: handled below
-                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-tighter text-foreground lowercase text-[40px]",
+                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-tighter text-foreground lowercase text-[36px]",
                     align === "center"
                       ? "mx-auto"
                       : align === "right"

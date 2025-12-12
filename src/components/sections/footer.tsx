@@ -26,6 +26,7 @@ const links: Link[] = [
   { text: "Pricing", url: "#pricing" },
   { text: "Contact", url: "mailto:support@espeak.it" },
   { text: "Privacy Policy", url: "/privacy-policy" },
+  { text: "Termini e Condizioni", url: "/terms-and-conditions" },
 ];
 
 export function Footer() {

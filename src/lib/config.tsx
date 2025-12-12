@@ -237,14 +237,6 @@ export const siteConfig = {
       ),
     },
     {
-      question: "espeak è disponibile su iOS e Android?",
-      answer: (
-        <span>
-          Sì, espeak è disponibile sia sull'App Store che su Google Play. Puoi scaricarlo gratuitamente e iniziare subito a praticare inglese.
-        </span>
-      ),
-    },
-    {
       question: "Cosa rende espeak diverso da altri corsi di inglese?",
       answer: (
         <span>
@@ -329,14 +321,6 @@ export const siteConfig = {
       role: "Sviluppatore software",
       image:
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
-    },
-    {
-      id: 10,
-      text: "L'AI capisce il mio livello e mi propone conversazioni adeguate. Non mi sento mai sopraffatto o annoiato.",
-      name: "David Chen",
-      role: "Business Analyst",
-      image:
-        "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHBvcnRyYWl0fGVufDB8fDB8fHww",
     },
   ],
 };

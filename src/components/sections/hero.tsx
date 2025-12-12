@@ -27,9 +27,9 @@ export function Hero() {
             style={{ transformOrigin: "top" }}
           >
             <motion.img
-              src="/Favicon-512x512-espeak.png"
+              src="/espeak-logotipo-600px-height.png"
               alt="eSpeak Logo"
-              className="h-full w-auto object-contain mx-auto"
+              className="h-full w-auto max-w-[65%] md:max-w-none object-contain mx-auto"
               style={{ maxHeight: "100%" }}
               initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
@@ -42,7 +42,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5, ease: easeInOutCubic }}
-            className="text-5xl sm:text-6xl font-bold mb-4 tracking-tighter text-balance"
+            className="text-4xl sm:text-6xl font-bold mb-4 tracking-tighter text-balance"
           >
             <span className="block">{siteConfig.hero.headlineTop}</span>
             <span className="block">
