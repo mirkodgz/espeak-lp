@@ -40,6 +40,16 @@ export default function TermsAndConditionsPage() {
             </a>
           </li>
           <li>
+            <a className="hover:text-foreground hover:underline" href="#rimborsi">
+              3.3. Rimborsi
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-foreground hover:underline" href="#rinnovo-automatico">
+              3.4. Rinnovo Automatico
+            </a>
+          </li>
+          <li>
             <a className="hover:text-foreground hover:underline" href="#proprieta-intellettuale">
               4. Proprietà intellettuale e licenza
             </a>
@@ -178,6 +188,57 @@ export default function TermsAndConditionsPage() {
           </p>
           <p>
             Fornendo tali informazioni, accetti che, salvo annullamento prima della fine del Periodo di Prova, espeak possa iniziare automaticamente ad addebitarti i Contenuti a Pagamento a partire dal primo giorno successivo alla fine del Periodo di Prova, con cadenza mensile (o altra ricorrenza indicata), fino a quando non annullerai l'abbonamento tramite Apple App Store / Google Play Store (o altro processore applicabile). Se non desideri addebiti, devi annullare prima della fine del Periodo di Prova. In caso di annullamento, il tuo account avrà accesso solo alle parti gratuite dei Servizi.
+          </p>
+
+          <h3 id="rimborsi"><strong>3.3</strong> Rimborsi</h3>
+          <p>
+            I rimborsi per le sottoscrizioni vengono gestiti direttamente dai processori di pagamento di terze parti (Apple App Store e/o Google Play Store) secondo le loro rispettive politiche di rimborso. <strong>espeak</strong> non gestisce direttamente i rimborsi.
+          </p>
+
+          <h4><strong>Per iOS (App Store):</strong></h4>
+          <p>
+            Per richiedere un rimborso per una sottoscrizione acquistata tramite Apple App Store:
+          </p>
+          <ol>
+            <li>Visita: <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">https://reportaproblem.apple.com</a></li>
+            <li>Accedi con il tuo Apple ID</li>
+            <li>Seleziona la sottoscrizione di espeak</li>
+            <li>Segui le istruzioni per richiedere il rimborso</li>
+          </ol>
+          <p>
+            Apple valuterà la tua richiesta entro 24-48 ore. Se approvato, il rimborso apparirà sul tuo metodo di pagamento entro 30 giorni lavorativi.
+          </p>
+
+          <h4><strong>Per Android (Google Play Store):</strong></h4>
+          <p>
+            I rimborsi vengono gestiti direttamente da Google tramite Google Play Store secondo le loro politiche di rimborso. Puoi richiedere un rimborso tramite le impostazioni del tuo account Google Play Store.
+          </p>
+
+          <p>
+            <strong>Importante:</strong>
+          </p>
+          <ul>
+            <li>I rimborsi vengono gestiti esclusivamente da Apple/Google</li>
+            <li><strong>espeak</strong> non gestisce direttamente i rimborsi</li>
+            <li>Per assistenza o domande sui rimborsi, puoi contattarci a: <a href="mailto:support@espeak.it">support@espeak.it</a></li>
+          </ul>
+
+          <h3 id="rinnovo-automatico"><strong>3.4</strong> Rinnovo Automatico</h3>
+          <p>
+            Le sottoscrizioni si rinnovano automaticamente alla fine di ogni periodo (mensile, trimestrale o annuale, a seconda del piano selezionato). Il rinnovo automatico garantisce la continuità del servizio senza interruzioni.
+          </p>
+          <p>
+            Puoi disattivare il rinnovo automatico in qualsiasi momento tramite:
+          </p>
+          <ul>
+            <li><strong>iOS:</strong> Impostazioni &gt; [Il tuo nome] &gt; Sottoscrizioni &gt; espeak &gt; Annulla sottoscrizione</li>
+            <li><strong>Android:</strong> Google Play Store &gt; Menu &gt; Pagamenti e sottoscrizioni &gt; espeak &gt; Annulla sottoscrizione</li>
+          </ul>
+          <p>
+            <strong>Importante:</strong> La disattivazione del rinnovo automatico impedirà il rinnovo futuro, ma non rimborserà il periodo già pagato. Continuerai ad avere accesso ai Servizi fino alla fine del periodo di abbonamento corrente.
+          </p>
+          <p>
+            Se non disattivi il rinnovo automatico, il tuo abbonamento verrà rinnovato automaticamente e verrà addebitato il costo dell'abbonamento al metodo di pagamento associato al tuo account.
           </p>
         </section>
 
