@@ -87,7 +87,7 @@ export function Header() {
                   "h-8 rounded-full group px-4 py-2 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors bg-white text-[var(--cta)] hover:bg-white/90"
                 )}
               >
-                Inizia ora2
+                Inizia ora
               </Link>
             </div>
             <div className="cursor-pointer block lg:hidden flex items-center">
