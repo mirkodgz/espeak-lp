@@ -4,18 +4,18 @@ import { Footer } from "@/components/sections/footer";
 import { Mail, MessageCircle, Clock, Bug } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact | espeak",
+  title: "Support | espeak",
   description: "Contattaci per supporto, domande o informazioni su espeak",
 };
 
-export default function ContactPage() {
+export default function SupportPage() {
   return (
     <main className="relative">
       <Header />
       <div className="container px-6 sm:px-10 mx-auto max-w-3xl py-12 sm:py-20">
         <header className="space-y-3 mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
-            Contattaci
+            Supporto
           </h1>
           <p className="text-lg text-muted-foreground">
             Siamo qui per aiutarti. Contattaci per qualsiasi domanda, supporto o informazione.

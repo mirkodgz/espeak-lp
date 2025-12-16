@@ -24,7 +24,7 @@ type Link = {
 
 const links: Link[] = [
   { text: "Pricing", url: "#pricing" },
-  { text: "Contact", url: "/contact" },
+  { text: "Contact", url: "/support" },
   { text: "Privacy Policy", url: "/privacy-policy" },
   { text: "Termini e Condizioni", url: "/terms-and-conditions" },
 ];

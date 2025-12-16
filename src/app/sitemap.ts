@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const base = new URL(envUrl).origin;
     return [
       { url: `${base}/`, lastModified: new Date() },
-      { url: `${base}/contact`, lastModified: new Date() },
+      { url: `${base}/support`, lastModified: new Date() },
       { url: `${base}/privacy-policy`, lastModified: new Date() },
       { url: `${base}/terms-and-conditions`, lastModified: new Date() },
     ];
@@ -26,7 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
     },
     {
-      url: `${base}/contact`,
+      url: `${base}/support`,
       lastModified: new Date(),
     },
     {
