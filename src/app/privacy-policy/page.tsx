@@ -10,384 +10,290 @@ export default function PrivacyPolicyPage() {
   return (
     <main className="relative">
       <Header />
-      <div className="container px-6 sm:px-10 mx-auto max-w-3xl py-12 sm:py-20">
-      <header className="space-y-3">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
-          Privacy Policy
-        </h1>
-        <p className="text-sm text-muted-foreground">Last updated: 12 December 2025</p>
-      </header>
+      <div className="container px-6 sm:px-10 mx-auto max-w-5xl py-12 sm:py-20">
+        <header className="space-y-3">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
+            INFORMATIVA SULLA PRIVACY
+          </h1>
+          <p className="text-sm text-muted-foreground">Ultimo aggiornamento: 12 novembre 2025</p>
+        </header>
 
-      <nav
-        aria-label="Table of contents"
-        className="mt-8 rounded-2xl border bg-card/30 px-5 py-4"
-      >
-        <p className="text-sm font-semibold text-foreground">On this page</p>
-        <ul className="mt-3 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#introduction">
-              Introduction
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#controller">
-              Who is responsible
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#collection-use-legal-basis">
-              Collection, use & legal basis
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#sharing">
-              Sharing & disclosure
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#international-transfers">
-              International transfers
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#retention">
-              Data retention
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#rights">
-              Data subject rights
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#security">
-              Data security
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#third-parties">
-              Third-party services
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#changes">
-              Changes
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-foreground hover:underline" href="#inquiries">
-              Privacy inquiries
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <article
-        className={[
-          "prose prose-zinc mt-10 max-w-none dark:prose-invert",
-          "prose-headings:scroll-mt-24 prose-headings:tracking-tight",
-          "prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-12 prose-h2:mb-6",
-          "prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-8 prose-h3:mb-4",
-          "prose-p:leading-8 prose-p:mb-6",
-          "prose-a:text-primary prose-a:no-underline hover:prose-a:underline",
-          "prose-ul:my-4 prose-li:my-2",
-        ].join(" ")}
-      >
-        <section id="introduction">
-          <p>
-            <strong>espeak</strong> respects your privacy and is committed to
-            protecting the personal data that you share with us. In general, you
-            may browse our website without providing any personal data about
-            yourself (except for cookies and similar technologies, as described
-            in this <strong>Privacy Policy</strong>).
-          </p>
-          <p>
-            When you choose to use our website or our application, an AI-powered
-          tool designed to help users improve and achieve fluency in the
-          English language (the "<strong>App</strong>" or the "<strong>Services</strong>"), or when you
-            voluntarily provide us with personal data (for example, when
-            contacting support), this <strong>Privacy Policy</strong> explains how we collect,
-            use, store and protect your personal information.
-          </p>
-        </section>
-
-        <section id="controller">
-          <h2>Who is responsible for the processing of your personal data?</h2>
-          <p>The entity responsible for the processing of your personal data is:</p>
-          <p>
-            <strong>espeak</strong>
-            <br />
-            Email: <a href="mailto:support@espeak.it">support@espeak.it</a>
-            <br />
-            Phone: +39 347 760 6837
-            <br />
-            Address: Milano, Italy
-          </p>
-          <p>
-            In this <strong>Privacy Policy</strong>, <strong>espeak</strong> may be referred to as "espeak", "we",
-            "us" or "our".
-          </p>
-        </section>
-
-        <section id="collection-use-legal-basis">
-          <h2>How we collect and use information, and legal basis for processing</h2>
-          <p>Depending on your interaction with espeak, we may collect two types of data:</p>
-
-          <h3>Non-Personal Data</h3>
-          <p>
-            "<strong>Non-Personal Data</strong>" means information that does not identify a
-            specific natural person and cannot reasonably be used to identify
-            such a person.
-          </p>
-          <p>This may include, for example:</p>
-          <ul>
-            <li>dates and times of interaction with the App</li>
-            <li>usage patterns and aggregated statistics</li>
-            <li>technical logs</li>
-            <li>interaction metadata</li>
-            <li>device or system-level information collected in aggregated form</li>
+        <nav
+          aria-label="Table of contents"
+          className="mt-8 rounded-2xl border bg-card/30 px-5 py-4"
+        >
+          <p className="text-sm font-semibold text-foreground">In questa pagina</p>
+          <ul className="mt-3 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
+            <li><a className="hover:text-foreground hover:underline" href="#titolare">1. Titolare del trattamento</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#tipologie-dati">2. Tipologie di dati</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#dati-vocali">3. Dati vocali e conversazioni</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#ai-ml">4. Intelligenza Artificiale</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#base-giuridica">5. Base giuridica</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#assistenza">6. Assistenza clienti</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#login">7. Login e autenticazione</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#analytics">8. Analytics</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#acquisti">9. Acquisti in-app</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#cookie">10. Cookie</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#condivisione">11. Condivisione dei dati</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#conservazione">12. Conservazione</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#diritti">13. Diritti dell’utente</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#eta">14. Età minima</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#sicurezza">15. Sicurezza</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#contatti">16. Contatti</a></li>
           </ul>
-          <p>
-            Non-Personal Data may be used without limitation and for any lawful
-            purpose, including commercial, analytical, research or statistical
-            purposes, in order to operate, maintain, improve and secure our
-            website, App and Services, including fraud prevention and system
-            optimization.
-          </p>
+        </nav>
 
-          <h3>Personal Data</h3>
-          <p>
-            "<strong>Personal Data</strong>" means any information that may be used to identify an
-            individual, directly or indirectly, including but not limited to:
-          </p>
-          <ul>
-            <li>first and last name</li>
-            <li>email address</li>
-            <li>telephone number</li>
-            <li>physical or billing address</li>
-            <li>date of birth</li>
-            <li>gender</li>
-            <li>occupation or professional information</li>
-            <li>account credentials</li>
-            <li>any other information required to provide the Services you request</li>
-          </ul>
-          <p>
-            We process <strong>Personal Data</strong> in accordance with applicable data
-            protection laws, including the <strong>GDPR</strong>, and based on one or more lawful
-            bases, as detailed below.
-          </p>
+        <article
+          className={[
+            "prose prose-zinc mt-10 max-w-none dark:prose-invert",
+            "prose-headings:scroll-mt-24 prose-headings:tracking-tight",
+            "prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-12 prose-h2:mb-6",
+            "prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-8 prose-h3:mb-4",
+            "prose-p:leading-8 prose-p:mb-6",
+            "prose-a:text-primary prose-a:no-underline hover:prose-a:underline",
+            "prose-ul:my-4 prose-li:my-2",
+          ].join(" ")}
+        >
+          <div className="space-y-8">
+            <section>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                <strong>espeak</strong> rispetta la tua privacy ed è impegnata a proteggere i dati personali che condividi con noi, in conformità al Regolamento (UE) 2016/679 (“GDPR”) e alla normativa applicabile.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Puoi navigare il nostro sito web senza fornire dati personali, ad eccezione dei cookie e di tecnologie simili, come descritto nella presente Informativa.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Quando utilizzi il nostro sito web o la nostra applicazione mobile, un’applicazione basata su intelligenza artificiale progettata per aiutare gli utenti a migliorare e raggiungere la fluidità nella lingua inglese (l’“App” o i “Servizi”), oppure quando fornisci volontariamente dati personali (ad esempio contattando l’assistenza), la presente Informativa descrive come raccogliamo, utilizziamo e proteggiamo tali dati.
+              </p>
+            </section>
 
-          <h3>Information used to provide the Services</h3>
-          <p>
-            We may collect and store <strong>Personal Data</strong> such as name, email address,
-            telephone number and other contact information in order to provide
-            access to the <strong>App</strong> and <strong>Services</strong>.
-          </p>
-          <p>We may also collect and process information related to your use of the <strong>App</strong>, including:</p>
-          <ul>
-            <li>information provided during AI-powered lessons or conversations</li>
-            <li>transcripts generated during lessons</li>
-            <li>voice recordings created during interactions with the App</li>
-            <li>learning progress and performance metrics</li>
-          </ul>
-          <p>
-            The legal basis for this processing is the performance of a contract
-            between you and <strong>espeak</strong> and the necessity to provide the <strong>Services</strong> you
-            request.
-          </p>
+            <hr className="border-border" />
 
-          <h3>Information for customer support and inquiries</h3>
-          <p>
-            When you contact <strong>espeak</strong> for support, assistance or information, we
-            may collect and store <strong>Personal Data</strong> such as your name, email address,
-            telephone number and the content of your communication.
-          </p>
-          <p>
-            This information is used solely to respond to your request and provide
-            customer support.
-          </p>
-          <p>
-            The legal basis for this processing is the performance of our
-            contractual obligations and our legitimate interest in providing
-            effective customer support.
-          </p>
+            <section id="titolare">
+              <h2>1. Titolare del trattamento</h2>
+              <div className="bg-card p-6 rounded-xl border shadow-sm">
+                <p className="font-medium text-lg mb-2">Phoebe Dellas Hoyt</p>
+                <div className="space-y-1 text-muted-foreground">
+                  <p>Milano, Italia</p>
+                  <p> <a href="mailto:support@espeak.it" className="text-primary hover:underline">support@espeak.it</a></p>
+                  <p>+39 347 760 6837</p>
+                </div>
+              </div>
+            </section>
 
-          <h3>Information for maintenance and improvement of the Services</h3>
-          <p>
-            We may use <strong>Personal Data</strong> and technical information, such as IP
-            addresses, server logs, cookies, local storage technologies, pixel
-            tags or similar tools, to:
-          </p>
-          <ul>
-            <li>operate and administer the App and website</li>
-            <li>analyze usage patterns</li>
-            <li>improve functionality, performance and user experience</li>
-            <li>ensure security and prevent misuse</li>
-          </ul>
-          <p>
-            We may also use conversation data and interaction data, in aggregated
-            or anonymized form where possible, to train, improve and optimize our
-            <strong>AI models</strong> and algorithms.
-          </p>
-          <p>
-            The legal basis for this processing is our legitimate interest in
-            improving and securing our <strong>Services</strong>, as well as the performance of our
-            contract with you.
-          </p>
+            <hr className="border-border" />
 
-          <h3>Marketing and promotional communications</h3>
-          <p>
-            Where permitted by applicable law and subject to your consent where
-            required, we may process your contact details (such as email address)
-            to send you newsletters, updates, service-related notices or
-            promotional communications.
-          </p>
-          <p>
-            You may withdraw your consent at any time by clicking the
-            “unsubscribe” link included in our communications or by contacting us
-            directly.
-          </p>
-          <p>
-            The legal basis for this processing is your consent or our legitimate
-            interest, as permitted by law.
-          </p>
+            <section id="tipologie-dati">
+              <h2>2. Tipologie di dati trattati</h2>
 
-          <h3>Cookies, pixels and similar technologies</h3>
-          <p>
-            Our website and App may use cookies, pixels, web beacons and similar
-            tracking technologies.
-          </p>
-          <p>These technologies are used to:</p>
-          <ul>
-            <li>ensure proper functioning of the Services</li>
-            <li>enhance performance and usability</li>
-            <li>analyze usage trends</li>
-            <li>improve security</li>
-          </ul>
-          <p>
-            Cookies do not contain account credentials or passwords and are used
-            solely to recognize returning users and sessions.
-          </p>
-          <p>
-            You may block or delete cookies through your browser or device
-            settings. Please note that disabling cookies may affect the
-            functionality and user experience of the Services.
-          </p>
-          <p>Additional information may be provided in a separate Cookie Policy.</p>
-        </section>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-accent/30 p-6 rounded-xl border">
+                  <h3>2.1 Dati non personali</h3>
+                  <p className="text-sm text-muted-foreground mb-4">Informazioni che non consentono l’identificazione diretta dell’utente, quali:</p>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>dati statistici e di utilizzo dell’App</li>
+                    <li>dati tecnici e di funzionamento</li>
+                    <li>log di sistema</li>
+                  </ul>
+                  <p className="text-sm mt-4 font-medium">Utilizzati esclusivamente per analisi, sicurezza e miglioramento dei Servizi.</p>
+                </div>
 
-        <section id="sharing">
-          <h2>Information sharing and disclosure</h2>
-          <p>We may share Personal Data under the following circumstances:</p>
-          <ul>
-            <li>With your explicit consent;</li>
-            <li>
-              With trusted third-party service providers who perform services on our behalf
-              (such as hosting, analytics, AI processing, speech recognition or customer support),
-              strictly limited to what is necessary to provide such services;
-            </li>
-            <li>In the event of a merger, acquisition, asset sale or similar corporate transaction;</li>
-            <li>When required for audits, security investigations, fraud prevention or legal claims;</li>
-            <li>
-              When required by law, regulation or legal process, or to protect the rights, safety
-              or property of espeak, users or the public.
-            </li>
-          </ul>
-          <p>We do not sell Personal Data to third parties for their own marketing purposes.</p>
-        </section>
+                <div className="bg-accent/30 p-6 rounded-xl border">
+                  <h3>2.2 Dati personali</h3>
+                  <p className="text-sm text-muted-foreground mb-4">Possiamo trattare:</p>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>nome e cognome</li>
+                    <li>indirizzo email</li>
+                    <li>numero di telefono</li>
+                    <li>credenziali di accesso (email, Apple ID, Google)</li>
+                    <li>dati relativi all’attività di apprendimento</li>
+                    <li>comunicazioni con l’assistenza clienti</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
 
-        <section id="international-transfers">
-          <h2>International data transfers</h2>
-          <p>
-            <strong>Personal Data</strong> may be transferred to recipients located outside the <strong>European Union</strong> or
-            <strong>European Economic Area</strong>.
-          </p>
-          <p>
-            Where such transfers occur, and where the recipient country does not provide an adequate
-            level of data protection, <strong>espeak</strong> relies on appropriate safeguards, including <strong>Standard
-            Contractual Clauses</strong> approved by the European Commission.
-          </p>
-        </section>
+            <hr className="border-border" />
 
-        <section id="retention">
-          <h2>Data retention</h2>
-          <p>
-            <strong>espeak</strong> retains <strong>Personal Data</strong> only for as long as necessary to fulfill the purposes for
-            which it was collected, unless a longer retention period is required or permitted by law.
-          </p>
-          <p>
-            Once no longer necessary, <strong>Personal Data</strong> is securely deleted or anonymized. Aggregated and
-            anonymized statistical data may be retained indefinitely.
-          </p>
-        </section>
+            <section id="dati-vocali">
+              <h2>3. Dati vocali e conversazioni</h2>
+              <p className="text-lg">L’App consente di esercitarsi parlando in inglese con un tutor AI.</p>
 
-        <section id="rights">
-          <h2>Data subject rights</h2>
-          <p>In accordance with applicable data protection laws, you have the right to:</p>
-          <ul>
-            <li>access your Personal Data</li>
-            <li>request rectification or deletion</li>
-            <li>restrict or object to processing</li>
-            <li>request data portability</li>
-            <li>withdraw consent at any time</li>
-          </ul>
-          <p>Please note that deletion or restriction may affect our ability to provide the Services.</p>
-          <p>
-            To exercise your rights, please contact us at{" "}
-            <a href="mailto:support@espeak.it">support@espeak.it</a>.
-          </p>
-        </section>
+              <div className="bg-primary/5 p-6 rounded-xl my-8 border-l-4 border-primary shadow-sm">
+                <p className="font-bold text-lg text-primary flex items-center gap-2">
+                  Importante (Apple-friendly)
+                </p>
+                <div className="mt-4 space-y-2 text-foreground/90">
+                  <p>
+                    Le registrazioni vocali vengono elaborate esclusivamente in tempo reale per fornire feedback immediato.
+                  </p>
+                  <p className="font-semibold text-primary">
+                    Non vengono salvate, archiviate né conservate sui nostri server.
+                  </p>
+                </div>
+              </div>
 
-        <section id="security">
-          <h2>Data security</h2>
-          <p>
-            We implement appropriate technical and organizational measures to protect <strong>Personal Data</strong>
-            against unauthorized access, loss, alteration or disclosure.
-          </p>
-          <p>
-            While we take reasonable steps to protect your information, no method of transmission
-            over the internet or electronic storage is completely secure.
-          </p>
-        </section>
+              <p>Le trascrizioni generate sono utilizzate solo durante la sessione di apprendimento per:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>analisi linguistica</li>
+                <li>feedback su pronuncia e fluidità</li>
+              </ul>
+              <p className="mt-4 text-muted-foreground">I dati vocali non vengono utilizzati per identificare l’utente e non vengono venduti a terzi.</p>
+            </section>
 
-        <section id="third-parties">
-          <h2>Third-party websites and services</h2>
-          <p>
-            Our website and <strong>App</strong> may contain links to third-party websites, applications or services.
-            <strong>espeak</strong> is not responsible for the privacy practices of such third parties.
-          </p>
-          <p>
-            We encourage you to review the privacy policies of any third-party services you access.
-          </p>
-        </section>
+            <hr className="border-border" />
 
-        <section id="changes">
-          <h2>Changes to this Privacy Policy</h2>
-          <p>
-            We may update this <strong>Privacy Policy</strong> from time to time. Any material changes will be posted
-            on this page and, where required by law, notified to you.
-          </p>
-        </section>
+            <section id="ai-ml">
+              <h2>4. Intelligenza Artificiale e Machine Learning</h2>
+              <p>espeak utilizza sistemi di intelligenza artificiale per:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>fornire lezioni personalizzate</li>
+                <li>migliorare l’esperienza di apprendimento</li>
+              </ul>
+              <p className="mt-4 p-4 bg-muted rounded-lg border">
+                I dati testuali generati durante le sessioni possono essere utilizzati in forma aggregata e anonimizzata per migliorare i modelli AI.
+                <br />
+                <strong className="block mt-2 text-primary">Non utilizziamo dati vocali personali per l’addestramento diretto.</strong>
+              </p>
+            </section>
 
-        <section id="inquiries">
-          <h2>Privacy inquiries</h2>
-          <p>
-            If you have any questions or concerns regarding this <strong>Privacy Policy</strong> or the processing of
-            your <strong>Personal Data</strong>, please contact:
-          </p>
-          <p>
-            Email: <a href="mailto:support@espeak.it">support@espeak.it</a>
-            <br />
-            Telefono: +39 347 760 6837
-            <br />
-            Indirizzo: Milano, Italy
-          </p>
-          <p>
-            If you are a resident of the EU/EEA, you also have the right to lodge a complaint with
-            your local data protection authority.
-          </p>
-        </section>
-      </article>
+            <hr className="border-border" />
+
+            <section id="base-giuridica">
+              <h2>5. Base giuridica del trattamento</h2>
+              <p>Il trattamento avviene sulla base di:</p>
+              <ul className="grid sm:grid-cols-2 gap-4 not-prose">
+                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
+                  esecuzione del contratto
+                </li>
+                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
+                  consenso dell’utente
+                </li>
+                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
+                  obblighi di legge
+                </li>
+                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
+                  legittimo interesse
+                </li>
+              </ul>
+            </section>
+
+            <hr className="border-border" />
+
+            <section id="assistenza">
+              <h2>6. Assistenza clienti</h2>
+              <p className="text-lg">Quando contatti il supporto, utilizziamo i tuoi dati esclusivamente per rispondere alla richiesta.</p>
+            </section>
+
+            <section id="login">
+              <h2>7. Login e autenticazione</h2>
+              <p>L’App consente l’accesso tramite:</p>
+              <ul className="flex flex-wrap gap-3 not-prose my-4">
+                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Email e Password</li>
+                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Apple Sign-In</li>
+                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Google Sign-In</li>
+              </ul>
+              <p>I dati di autenticazione sono utilizzati esclusivamente per la gestione dell’account.</p>
+            </section>
+
+            <section id="analytics">
+              <h2>8. Analytics</h2>
+              <p>Utilizziamo (o potremmo utilizzare) strumenti di analytics anonimi per comprendere:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>utilizzo delle funzionalità</li>
+                <li>prestazioni dell’App</li>
+                <li>miglioramento dell’esperienza utente</li>
+              </ul>
+              <p className="mt-4 font-medium text-primary">Gli analytics non vengono utilizzati per tracciamento pubblicitario e non per identificare gli utenti.</p>
+            </section>
+
+            <hr className="border-border" />
+
+            <section id="acquisti">
+              <h2>9. Acquisti in-app e abbonamenti</h2>
+              <div className="flex gap-4 items-center p-4 bg-muted/50 rounded-xl border">
+                <div>
+                  <p>I pagamenti sono gestiti esclusivamente da <strong>Apple App Store</strong> e <strong>Google Play Store</strong>.</p>
+                  <p className="text-sm text-muted-foreground mt-1">espeak non raccoglie né conserva dati di pagamento.</p>
+                </div>
+              </div>
+            </section>
+
+            <section id="cookie">
+              <h2>10. Cookie e tecnologie simili</h2>
+              <p>
+                Utilizziamo cookie tecnici e funzionali per garantire il corretto funzionamento del sito e dell’App.
+                La disattivazione può limitare alcune funzionalità.
+              </p>
+            </section>
+
+            <hr className="border-border" />
+
+            <section id="condivisione">
+              <h2>11. Condivisione dei dati</h2>
+              <p>I dati possono essere condivisi solo con:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>fornitori tecnici essenziali (hosting, infrastruttura)</li>
+                <li>autorità competenti, se richiesto dalla legge</li>
+              </ul>
+              <div className="flex gap-4 mt-6">
+                <div className="px-4 py-2 bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 rounded-lg text-sm font-bold">
+                  Non vendiamo dati personali
+                </div>
+                <div className="px-4 py-2 bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 rounded-lg text-sm font-bold">
+                  Non facciamo advertising tracking
+                </div>
+              </div>
+            </section>
+
+            <section id="conservazione">
+              <h2>12. Conservazione dei dati</h2>
+              <p>
+                I dati vengono conservati solo per il tempo necessario alla fornitura dei Servizi e agli obblighi di legge.
+                I dati anonimi possono essere conservati più a lungo.
+              </p>
+            </section>
+
+            <section id="diritti">
+              <h2>13. Diritti dell’utente</h2>
+              <p>Hai diritto a:</p>
+              <ul className="grid sm:grid-cols-2 gap-2 not-prose">
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> accesso, rettifica e cancellazione</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> limitazione o opposizione</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> portabilità dei dati</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> revoca del consenso</li>
+              </ul>
+              <p className="mt-4">Per esercitare questi diritti, scrivi a: <a href="mailto:support@espeak.it">support@espeak.it</a></p>
+            </section>
+
+            <hr className="border-border" />
+
+            <section id="eta">
+              <h2>14. Età minima</h2>
+              <div className="flex items-center gap-4 p-4 border rounded-xl bg-card">
+                <p className="font-medium">L’App è destinata esclusivamente a utenti di età pari o superiore a 16 anni.</p>
+              </div>
+            </section>
+
+            <section id="sicurezza">
+              <h2>15. Sicurezza</h2>
+              <p>Adottiamo misure tecniche e organizzative adeguate per proteggere i dati personali.</p>
+            </section>
+
+            <section id="contatti">
+              <h2>16. Contatti privacy</h2>
+              <div className="mt-6 space-y-2">
+                <p className="font-bold">Phoebe Dellas Hoyt</p>
+                <p>Hai domande?</p>
+                <p>
+                  <a href="mailto:support@espeak.it" className="text-primary hover:underline">support@espeak.it</a>
+                </p>
+                <p>+39 347 760 6837</p>
+                <p className="text-muted-foreground">Milano, Italia</p>
+              </div>
+            </section>
+          </div>
+        </article>
       </div>
       <Footer />
     </main>

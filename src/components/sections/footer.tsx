@@ -17,51 +17,66 @@ const icons: Icon[] = [
   { icon: <TwitterLogoIcon />, url: "#" },
 ];
 
-type Link = {
-  text: string;
-  url: string;
-};
-
-const links: Link[] = [
-  { text: "Pricing", url: "#pricing" },
-  { text: "Contact", url: "/support" },
-  { text: "Privacy Policy", url: "/privacy-policy" },
-  { text: "Termini e Condizioni", url: "/terms-and-conditions" },
-];
-
 export function Footer() {
   return (
-    <footer className="flex flex-col gap-y-5 rounded-lg px-7 py-5 md:px-10 container">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-x-2">
-          <Icons.logo className="h-8 w-auto" />
+    <footer className="border-t bg-background">
+      <div className="container px-6 sm:px-10 mx-auto max-w-5xl py-12 md:py-16">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:gap-12">
+          {/* Brand Column */}
+          <div className="md:col-span-1 space-y-4">
+            <div className="flex items-center gap-x-2">
+              <Icons.logo className="h-8 w-auto" />
+              <span className="font-bold text-lg tracking-tight">espeak</span>
+            </div>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Il tuo tutor AI per la fluidità in inglese. Pratica ovunque, in qualsiasi momento.
+            </p>
+            <div className="flex gap-x-4 pt-2">
+              {icons.map((icon, index) => (
+                <a
+                  key={index}
+                  href={icon.url}
+                  className="text-muted-foreground transition-colors hover:text-primary"
+                >
+                  {icon.icon}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Product Column */}
+          <div>
+            <h3 className="font-semibold mb-4 text-foreground">Prodotto</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li><a href="#" className="hover:text-primary transition-colors">Features</a></li>
+              <li><a href="#pricing" className="hover:text-primary transition-colors">Prezzi</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Download</a></li>
+            </ul>
+          </div>
+
+          {/* Support Column */}
+          <div>
+            <h3 className="font-semibold mb-4 text-foreground">Supporto</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li><a href="/support" className="hover:text-primary transition-colors">Contattaci</a></li>
+              <li><a href="mailto:support@espeak.it" className="hover:text-primary transition-colors">support@espeak.it</a></li>
+            </ul>
+          </div>
+
+          {/* Legal Column */}
+          <div>
+            <h3 className="font-semibold mb-4 text-foreground">Legale</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li><a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms-and-conditions" className="hover:text-primary transition-colors">Termini e Condizioni</a></li>
+              <li><a href="/cookie-policy" className="hover:text-primary transition-colors">Cookie Policy</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div className="flex gap-x-2">
-          {icons.map((icon, index) => (
-            <a
-              key={index}
-              href={icon.url}
-              className="flex h-5 w-5 items-center justify-center text-muted-foreground transition-all duration-100 ease-linear hover:text-foreground hover:underline hover:underline-offset-4"
-            >
-              {icon.icon}
-            </a>
-          ))}
-        </div>
-      </div>
-      <div className="flex flex-col justify-between gap-y-5 md:flex-row md:items-center">
-        <ul className="flex flex-col gap-x-5 gap-y-2 text-muted-foreground md:flex-row md:items-center">
-          {links.map((link, index) => (
-            <li
-              key={index}
-              className="text-[15px]/normal font-medium text-muted-foreground transition-all duration-100 ease-linear hover:text-foreground hover:underline hover:underline-offset-4"
-            >
-              <a href={link.url}>{link.text}</a>
-            </li>
-          ))}
-        </ul>
-        <div className="flex items-center justify-between text-sm font-medium tracking-tight text-muted-foreground">
-          <p>All rights reserved.</p>
+        {/* Copyright */}
+        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+          <p>© 2025 espeak. Tutti i diritti riservati.</p>
         </div>
       </div>
     </footer>
