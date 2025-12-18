@@ -11,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       { url: `${base}/support`, lastModified: new Date() },
       { url: `${base}/privacy-policy`, lastModified: new Date() },
       { url: `${base}/terms-and-conditions`, lastModified: new Date() },
+      { url: `${base}/cookie-policy`, lastModified: new Date() },
     ];
   }
 
@@ -35,6 +36,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${base}/terms-and-conditions`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${base}/cookie-policy`,
       lastModified: new Date(),
     },
   ];
