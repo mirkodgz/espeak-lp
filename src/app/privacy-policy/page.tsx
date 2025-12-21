@@ -13,9 +13,9 @@ export default function PrivacyPolicyPage() {
       <div className="container px-6 sm:px-10 mx-auto max-w-5xl py-12 sm:py-20">
         <header className="space-y-3">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
-            INFORMATIVA SULLA PRIVACY
+            Privacy Policy – espeak
           </h1>
-          <p className="text-sm text-muted-foreground">Ultimo aggiornamento: 12 novembre 2025</p>
+          <p className="text-sm text-muted-foreground">Ultimo aggiornamento: 21 dicembre 2025</p>
         </header>
 
         <nav
@@ -25,21 +25,16 @@ export default function PrivacyPolicyPage() {
           <p className="text-sm font-semibold text-foreground">In questa pagina</p>
           <ul className="mt-3 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
             <li><a className="hover:text-foreground hover:underline" href="#titolare">1. Titolare del trattamento</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#tipologie-dati">2. Tipologie di dati</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#dati-vocali">3. Dati vocali e conversazioni</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#ai-ml">4. Intelligenza Artificiale</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#base-giuridica">5. Base giuridica</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#assistenza">6. Assistenza clienti</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#login">7. Login e autenticazione</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#analytics">8. Analytics</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#acquisti">9. Acquisti in-app</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#cookie">10. Cookie</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#condivisione">11. Condivisione dei dati</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#conservazione">12. Conservazione</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#diritti">13. Diritti dell’utente</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#eta">14. Età minima</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#sicurezza">15. Sicurezza</a></li>
-            <li><a className="hover:text-foreground hover:underline" href="#contatti">16. Contatti</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#tipologie-dati">2. Tipologie di dati trattati</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#finalita">3. Finalità del trattamento</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#analisi">4. Analisi e monitoraggio</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#pagamenti">5. Pagamenti e abbonamenti</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#terze-parti">6. Servizi di terze parti</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#conservazione">7. Conservazione dei dati</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#eliminazione">8. Eliminazione account</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#diritti">9. Diritti dell’utente</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#sicurezza">10. Sicurezza</a></li>
+            <li><a className="hover:text-foreground hover:underline" href="#eta">11. Età minima</a></li>
           </ul>
         </nav>
 
@@ -57,13 +52,10 @@ export default function PrivacyPolicyPage() {
           <div className="space-y-8">
             <section>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                <strong>espeak</strong> rispetta la tua privacy ed è impegnata a proteggere i dati personali che condividi con noi, in conformità al Regolamento (UE) 2016/679 (“GDPR”) e alla normativa applicabile.
+                La presente Informativa sulla Privacy descrive come <strong>espeak</strong> (“noi”, “ci” o “nostro”) raccoglie, utilizza e protegge i dati personali degli utenti che utilizzano l’applicazione mobile <strong>espeak – Active English</strong>.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Puoi navigare il nostro sito web senza fornire dati personali, ad eccezione dei cookie e di tecnologie simili, come descritto nella presente Informativa.
-              </p>
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                Quando utilizzi il nostro sito web o la nostra applicazione mobile, un’applicazione basata su intelligenza artificiale progettata per aiutare gli utenti a migliorare e raggiungere la fluidità nella lingua inglese (l’“App” o i “Servizi”), oppure quando fornisci volontariamente dati personali (ad esempio contattando l’assistenza), la presente Informativa descrive come raccogliamo, utilizziamo e proteggiamo tali dati.
+                espeak tratta i dati personali in conformità al Regolamento (UE) 2016/679 (GDPR) e alle linee guida applicabili di Apple App Store e Google Play Store.
               </p>
             </section>
 
@@ -74,9 +66,8 @@ export default function PrivacyPolicyPage() {
               <div className="bg-card p-6 rounded-xl border shadow-sm">
                 <p className="font-medium text-lg mb-2">Phoebe Dellas Hoyt</p>
                 <div className="space-y-1 text-muted-foreground">
-                  <p>Milano, Italia</p>
-                  <p> <a href="mailto:support@espeak.it" className="text-primary hover:underline">support@espeak.it</a></p>
-                  <p>+39 347 760 6837</p>
+                  <p>Sede: Milano, Italia</p>
+                  <p>Email di contatto: <a href="mailto:support@espeak.it" className="text-primary hover:underline">support@espeak.it</a></p>
                 </div>
               </div>
             </section>
@@ -86,210 +77,143 @@ export default function PrivacyPolicyPage() {
             <section id="tipologie-dati">
               <h2>2. Tipologie di dati trattati</h2>
 
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-accent/30 p-6 rounded-xl border">
-                  <h3>2.1 Dati non personali</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Informazioni che non consentono l’identificazione diretta dell’utente, quali:</p>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>dati statistici e di utilizzo dell’App</li>
-                    <li>dati tecnici e di funzionamento</li>
-                    <li>log di sistema</li>
-                  </ul>
-                  <p className="text-sm mt-4 font-medium">Utilizzati esclusivamente per analisi, sicurezza e miglioramento dei Servizi.</p>
-                </div>
+              <h3>2.1 Dati di contatto</h3>
+              <p>Per la creazione e la gestione dell’account, espeak raccoglie esclusivamente:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>nome</li>
+                <li>indirizzo email</li>
+              </ul>
+              <p>Questi dati sono necessari per:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>creare e gestire l’account</li>
+                <li>autenticare l’utente</li>
+                <li>consentire l’accesso alle funzionalità dell’app</li>
+              </ul>
+              <p className="mt-4 font-medium">espeak non richiede né raccoglie numeri di telefono o indirizzi fisici degli utenti.</p>
 
-                <div className="bg-accent/30 p-6 rounded-xl border">
-                  <h3>2.2 Dati personali</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Possiamo trattare:</p>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>nome e cognome</li>
-                    <li>indirizzo email</li>
-                    <li>numero di telefono</li>
-                    <li>credenziali di accesso (email, Apple ID, Google)</li>
-                    <li>dati relativi all’attività di apprendimento</li>
-                    <li>comunicazioni con l’assistenza clienti</li>
-                  </ul>
-                </div>
+              <h3>2.2 Identificativi</h3>
+              <p>espeak utilizza:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>ID utente (identificativo interno dell’account)</li>
+              </ul>
+              <p>L’ID utente è utilizzato esclusivamente per collegare i dati all’account e per garantire il corretto funzionamento del servizio. Non viene utilizzato per finalità pubblicitarie o di tracciamento esterno.</p>
+
+              <h3>2.3 Dati di utilizzo e progresso educativo</h3>
+              <p>Per consentire all’utente di visualizzare e monitorare i propri progressi di apprendimento, espeak tratta dati relativi a:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>avanzamento nei percorsi didattici</li>
+                <li>completamento di esercizi, sfide e roleplay</li>
+                <li>livello e risultati raggiunti</li>
+              </ul>
+              <p>Questi dati vengono utilizzati esclusivamente per finalità educative, come:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>mostrare il progresso all’utente</li>
+                <li>sbloccare nuovi contenuti</li>
+                <li>adattare il percorso di apprendimento</li>
+              </ul>
+              <p>L’analisi del progresso avviene tramite strumenti tecnici interni e servizi di terze parti utilizzati per l’infrastruttura dell’app (ad esempio Supabase). Tali dati non vengono utilizzati per pubblicità né per profilazione a fini di marketing.</p>
+
+              <h3>2.4 Dati vocali</h3>
+              <p>Durante le sessioni di pratica di speaking, l’app utilizza la voce dell’utente per fornire feedback immediato su pronuncia e fluidità.</p>
+              <div className="bg-primary/5 p-6 rounded-xl my-6 border-l-4 border-primary shadow-sm">
+                <p className="font-semibold text-primary mb-2">Le registrazioni vocali:</p>
+                <ul className="list-disc pl-5 space-y-1 mb-0">
+                  <li>vengono elaborate esclusivamente in tempo reale</li>
+                  <li>non vengono salvate</li>
+                  <li>non vengono archiviate</li>
+                  <li>non vengono conservate sui server di espeak</li>
+                </ul>
               </div>
+              <p>I dati vocali non vengono utilizzati per identificare l’utente né per finalità pubblicitarie.</p>
+
+              <h3>2.5 Contenuti testuali e chat</h3>
+              <p>espeak non salva né conserva le conversazioni o i messaggi generati durante le interazioni educative con il tutor AI.</p>
+              <p>I contenuti testuali vengono utilizzati solo temporaneamente per generare risposte in tempo reale e non vengono archiviati.</p>
             </section>
 
             <hr className="border-border" />
 
-            <section id="dati-vocali">
-              <h2>3. Dati vocali e conversazioni</h2>
-              <p className="text-lg">L’App consente di esercitarsi parlando in inglese con un tutor AI.</p>
-
-              <div className="bg-primary/5 p-6 rounded-xl my-8 border-l-4 border-primary shadow-sm">
-                <p className="font-bold text-lg text-primary flex items-center gap-2">
-                  Importante (Apple-friendly)
-                </p>
-                <div className="mt-4 space-y-2 text-foreground/90">
-                  <p>
-                    Le registrazioni vocali vengono elaborate esclusivamente in tempo reale per fornire feedback immediato.
-                  </p>
-                  <p className="font-semibold text-primary">
-                    Non vengono salvate, archiviate né conservate sui nostri server.
-                  </p>
-                </div>
-              </div>
-
-              <p>Le trascrizioni generate sono utilizzate solo durante la sessione di apprendimento per:</p>
+            <section id="finalita">
+              <h2>3. Finalità del trattamento</h2>
+              <p>I dati personali raccolti vengono utilizzati esclusivamente per:</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>analisi linguistica</li>
-                <li>feedback su pronuncia e fluidità</li>
+                <li>fornire le funzionalità educative dell’app</li>
+                <li>gestire l’account dell’utente</li>
+                <li>monitorare e mostrare i progressi di apprendimento</li>
+                <li>migliorare l’esperienza educativa e il funzionamento del servizio</li>
               </ul>
-              <p className="mt-4 text-muted-foreground">I dati vocali non vengono utilizzati per identificare l’utente e non vengono venduti a terzi.</p>
-            </section>
-
-            <hr className="border-border" />
-
-            <section id="ai-ml">
-              <h2>4. Intelligenza Artificiale e Machine Learning</h2>
-              <p>espeak utilizza sistemi di intelligenza artificiale per:</p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>fornire lezioni personalizzate</li>
-                <li>migliorare l’esperienza di apprendimento</li>
-              </ul>
-              <p className="mt-4 p-4 bg-muted rounded-lg border">
-                I dati testuali generati durante le sessioni possono essere utilizzati in forma aggregata e anonimizzata per migliorare i modelli AI.
-                <br />
-                <strong className="block mt-2 text-primary">Non utilizziamo dati vocali personali per l’addestramento diretto.</strong>
+              <p className="mt-4 px-4 py-3 bg-muted rounded-lg border inline-block">
+                <strong>espeak non vende i dati personali</strong> e non utilizza i dati per pubblicità comportamentale o marketing di terze parti.
               </p>
             </section>
 
-            <hr className="border-border" />
-
-            <section id="base-giuridica">
-              <h2>5. Base giuridica del trattamento</h2>
-              <p>Il trattamento avviene sulla base di:</p>
-              <ul className="grid sm:grid-cols-2 gap-4 not-prose">
-                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
-                  esecuzione del contratto
-                </li>
-                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
-                  consenso dell’utente
-                </li>
-                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
-                  obblighi di legge
-                </li>
-                <li className="bg-card p-4 rounded-lg border shadow-sm flex items-center gap-3">
-                  legittimo interesse
-                </li>
-              </ul>
-            </section>
-
-            <hr className="border-border" />
-
-            <section id="assistenza">
-              <h2>6. Assistenza clienti</h2>
-              <p className="text-lg">Quando contatti il supporto, utilizziamo i tuoi dati esclusivamente per rispondere alla richiesta.</p>
-            </section>
-
-            <section id="login">
-              <h2>7. Login e autenticazione</h2>
-              <p>L’App consente l’accesso tramite:</p>
-              <ul className="flex flex-wrap gap-3 not-prose my-4">
-                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Email e Password</li>
-                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Apple Sign-In</li>
-                <li className="px-4 py-2 bg-muted rounded-full text-sm font-medium">Google Sign-In</li>
-              </ul>
-              <p>I dati di autenticazione sono utilizzati esclusivamente per la gestione dell’account.</p>
-            </section>
-
-            <section id="analytics">
-              <h2>8. Analytics</h2>
-              <p>Utilizziamo (o potremmo utilizzare) strumenti di analytics anonimi per comprendere:</p>
+            <section id="analisi">
+              <h2>4. Analisi e monitoraggio del servizio</h2>
+              <p>espeak <strong>non utilizza Google Analytics</strong> né strumenti di analisi pubblicitaria.</p>
+              <p>Le analisi effettuate sono limitate a:</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>utilizzo delle funzionalità</li>
-                <li>prestazioni dell’App</li>
-                <li>miglioramento dell’esperienza utente</li>
+                <li>monitoraggio tecnico del servizio</li>
+                <li>analisi del progresso educativo degli utenti</li>
               </ul>
-              <p className="mt-4 font-medium text-primary">Gli analytics non vengono utilizzati per tracciamento pubblicitario e non per identificare gli utenti.</p>
+              <p>Queste analisi avvengono tramite strumenti interni e fornitori tecnici e sono utilizzate esclusivamente per migliorare il servizio e l’esperienza di apprendimento.</p>
             </section>
 
             <hr className="border-border" />
 
-            <section id="acquisti">
-              <h2>9. Acquisti in-app e abbonamenti</h2>
-              <div className="flex gap-4 items-center p-4 bg-muted/50 rounded-xl border">
-                <div>
-                  <p>I pagamenti sono gestiti esclusivamente da <strong>Apple App Store</strong> e <strong>Google Play Store</strong>.</p>
-                  <p className="text-sm text-muted-foreground mt-1">espeak non raccoglie né conserva dati di pagamento.</p>
-                </div>
-              </div>
-            </section>
-
-            <section id="cookie">
-              <h2>10. Cookie e tecnologie simili</h2>
-              <p>
-                Utilizziamo cookie tecnici e funzionali per garantire il corretto funzionamento del sito e dell’App.
-                La disattivazione può limitare alcune funzionalità.
-              </p>
-            </section>
-
-            <hr className="border-border" />
-
-            <section id="condivisione">
-              <h2>11. Condivisione dei dati</h2>
-              <p>I dati possono essere condivisi solo con:</p>
+            <section id="pagamenti">
+              <h2>5. Pagamenti e abbonamenti</h2>
+              <p>I pagamenti vengono gestiti esclusivamente da:</p>
+              <ul className="grid sm:grid-cols-2 gap-4 not-prose my-4">
+                <li className="bg-card p-3 rounded-lg border text-center font-medium">Apple App Store</li>
+                <li className="bg-card p-3 rounded-lg border text-center font-medium">Google Play Store</li>
+              </ul>
+              <p>espeak:</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>fornitori tecnici essenziali (hosting, infrastruttura)</li>
-                <li>autorità competenti, se richiesto dalla legge</li>
+                <li>non raccoglie dati di pagamento</li>
+                <li>non ha accesso a carte di credito o informazioni bancarie</li>
               </ul>
-              <div className="flex gap-4 mt-6">
-                <div className="px-4 py-2 bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 rounded-lg text-sm font-bold">
-                  Non vendiamo dati personali
-                </div>
-                <div className="px-4 py-2 bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400 rounded-lg text-sm font-bold">
-                  Non facciamo advertising tracking
-                </div>
-              </div>
+              <p>Riceviamo solo una conferma tecnica dello stato dell’abbonamento per abilitare le funzionalità premium.</p>
+            </section>
+
+            <section id="terze-parti">
+              <h2>6. Servizi di terze parti</h2>
+              <p>Per il funzionamento tecnico dell’app, espeak utilizza fornitori affidabili, tra cui:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li><strong>Supabase</strong> (autenticazione, database e gestione dei dati di progresso)</li>
+                <li><strong>RevenueCat</strong> (gestione degli abbonamenti)</li>
+              </ul>
+              <p>Questi fornitori trattano i dati esclusivamente per conto di espeak e in conformità al GDPR.</p>
             </section>
 
             <section id="conservazione">
-              <h2>12. Conservazione dei dati</h2>
-              <p>
-                I dati vengono conservati solo per il tempo necessario alla fornitura dei Servizi e agli obblighi di legge.
-                I dati anonimi possono essere conservati più a lungo.
-              </p>
-            </section>
-
-            <section id="diritti">
-              <h2>13. Diritti dell’utente</h2>
-              <p>Hai diritto a:</p>
-              <ul className="grid sm:grid-cols-2 gap-2 not-prose">
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> accesso, rettifica e cancellazione</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> limitazione o opposizione</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> portabilità dei dati</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary" /> revoca del consenso</li>
-              </ul>
-              <p className="mt-4">Per esercitare questi diritti, scrivi a: <a href="mailto:support@espeak.it">support@espeak.it</a></p>
+              <h2>7. Conservazione dei dati</h2>
+              <p>I dati personali sono conservati solo per il tempo strettamente necessario a fornire il servizio o per adempiere a obblighi di legge, se applicabili.</p>
             </section>
 
             <hr className="border-border" />
 
-            <section id="eta">
-              <h2>14. Età minima</h2>
-              <div className="flex items-center gap-4 p-4 border rounded-xl bg-card">
-                <p className="font-medium">L’App è destinata esclusivamente a utenti di età pari o superiore a 16 anni.</p>
-              </div>
+            <section id="eliminazione">
+              <h2>8. Eliminazione dell’account e dei dati</h2>
+              <p>L’utente può richiedere in qualsiasi momento la cancellazione dell’account e dei dati associati.</p>
+              <p>Le istruzioni sono disponibili alla pagina:</p>
+              <p><a href="https://www.espeak.it/delete-account">https://www.espeak.it/delete-account</a></p>
+              <p>La richiesta viene elaborata entro 30 giorni.</p>
+            </section>
+
+            <section id="diritti">
+              <h2>9. Diritti dell’utente</h2>
+              <p>L’utente può esercitare i diritti previsti dal GDPR (accesso, rettifica, cancellazione, limitazione, opposizione) scrivendo a: <a href="mailto:support@espeak.it">support@espeak.it</a></p>
             </section>
 
             <section id="sicurezza">
-              <h2>15. Sicurezza</h2>
-              <p>Adottiamo misure tecniche e organizzative adeguate per proteggere i dati personali.</p>
+              <h2>10. Sicurezza</h2>
+              <p>espeak adotta misure tecniche e organizzative adeguate per proteggere i dati personali da accessi non autorizzati, perdita o uso improprio.</p>
             </section>
 
-            <section id="contatti">
-              <h2>16. Contatti privacy</h2>
-              <div className="mt-6 space-y-2">
-                <p className="font-bold">Phoebe Dellas Hoyt</p>
-                <p>Hai domande?</p>
-                <p>
-                  <a href="mailto:support@espeak.it" className="text-primary hover:underline">support@espeak.it</a>
-                </p>
-                <p>+39 347 760 6837</p>
-                <p className="text-muted-foreground">Milano, Italia</p>
+            <section id="eta">
+              <h2>11. Età minima</h2>
+              <div className="flex items-center gap-4 p-4 border rounded-xl bg-card">
+                <p className="font-medium">L’app è destinata esclusivamente a utenti di età pari o superiore a 16 anni.</p>
               </div>
             </section>
           </div>
@@ -299,5 +223,3 @@ export default function PrivacyPolicyPage() {
     </main>
   );
 }
-
-

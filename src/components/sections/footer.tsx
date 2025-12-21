@@ -26,7 +26,7 @@ export function Footer() {
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-x-2">
               <Icons.logo className="h-8 w-auto" />
-              <span className="font-bold text-lg tracking-tight">espeak</span>
+
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Il tuo tutor AI per la fluidità in inglese. Pratica ovunque, in qualsiasi momento.

@@ -15,7 +15,7 @@ export default function TermsAndConditionsPage() {
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
             Termini e Condizioni
           </h1>
-          <p className="text-sm text-muted-foreground">Ultimo aggiornamento: 12 dicembre 2025</p>
+          <p className="text-sm text-muted-foreground">Ultimo aggiornamento: 21 dicembre 2025</p>
         </header>
 
         <nav
@@ -141,7 +141,7 @@ export default function TermsAndConditionsPage() {
                 <strong>espeak</strong> è un software di apprendimento linguistico che consente agli utenti di imparare e migliorare l'inglese attraverso lezioni interattive basate su conversazioni con un tutor alimentato da intelligenza artificiale (i "<strong>Servizi</strong>").
               </p>
               <p>
-                I <strong>Servizi</strong> possono includere l'invio di notifiche push, messaggi, email, avvisi e comunicazioni tramite diversi mezzi. Inoltre, i Servizi possono includere pubblicità di terze parti e/o contenuti commerciali.
+                I <strong>Servizi</strong> possono includere l'invio di notifiche push, messaggi, email, avvisi e comunicazioni tramite diversi mezzi.
               </p>
               <p>
                 Puoi disattivare le notifiche push (ove applicabile) in qualsiasi momento modificando le impostazioni delle notifiche del tuo dispositivo e/o dell'<strong>App</strong>.
