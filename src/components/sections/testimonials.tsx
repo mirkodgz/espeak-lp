@@ -7,9 +7,10 @@ export function Testimonials() {
     <Section
       title="Testimonianze"
       subtitle="Cosa dicono i nostri utenti"
-      className="container px-10 mx-auto"
+      className="container px-10 mx-auto mt-2.5 sm:mt-0"
+      titleClassName="pb-4 lg:pb-0"
     >
-      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4 py-10">
+      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4 py-10 lg:pt-4">
         {siteConfig.testimonials.map((testimonial, index) => (
           <div
             key={index}

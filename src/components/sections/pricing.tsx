@@ -32,10 +32,11 @@ export function Pricing() {
       id="pricing"
       title="Prezzi"
       subtitle="Scegli il tuo piano"
-      className="container px-10 mx-auto max-w-[var(--max-container-width)]"
+      className="container px-10 mx-auto max-w-[var(--max-container-width)] mt-2.5 sm:mt-0"
+      titleClassName="pb-4 lg:pb-0"
       ref={ref}
     >
-      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto py-10">
+      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto py-10 lg:pt-4">
         {siteConfig.pricing.map((plan, index) => (
           <motion.div
             key={plan.name}

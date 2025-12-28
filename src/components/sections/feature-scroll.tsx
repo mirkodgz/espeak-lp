@@ -22,6 +22,7 @@ export function FeatureScroll() {
       id="feature-scroll"
       title="Esperienza"
       subtitle="Un'app diversa da tutte le altre"
+      titleClassName="pb-4 lg:pb-4"
       className="container px-4 sm:px-10 mx-auto max-w-[var(--max-container-width)]"
     >
       <div className="flex items-center justify-center select-none">

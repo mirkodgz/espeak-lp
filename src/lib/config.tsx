@@ -42,7 +42,8 @@ export const siteConfig = {
     twitter: "#",
     discord: "#",
     github: "#",
-    instagram: "#",
+    instagram: "https://www.instagram.com/activenglish_programs/",
+    tiktok: "https://www.tiktok.com/@activenglish",
   },
   features: [
     {

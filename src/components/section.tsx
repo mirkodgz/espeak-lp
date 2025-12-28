@@ -12,12 +12,13 @@ interface SectionProps {
   description?: string;
   children?: React.ReactNode;
   className?: string;
+  titleClassName?: string;
   align?: "left" | "center" | "right";
 }
 
 const Section = forwardRef<HTMLElement, SectionProps>(
   (
-    { id, title, subtitle, description, children, className, align },
+    { id, title, subtitle, description, children, className, titleClassName, align },
     forwardedRef
   ) => {
     const internalRef = useRef<HTMLElement>(null);
@@ -28,8 +29,8 @@ const Section = forwardRef<HTMLElement, SectionProps>(
       align === "left"
         ? "text-left"
         : align === "right"
-        ? "text-right"
-        : "text-center";
+          ? "text-right"
+          : "text-center";
 
     const { scrollYProgress } = useScroll({
       target: ref as React.RefObject<HTMLElement>,
@@ -45,9 +46,9 @@ const Section = forwardRef<HTMLElement, SectionProps>(
 
     return (
       <section id={id || sectionId} ref={ref}>
-        <div className={cn("sm:py-20 py-12", className)}>
+        <div className={cn("sm:py-10 py-8", className)}>
           {(title || subtitle || description) && (
-            <div className={cn(alignmentClass, "space-y-4 pb-10 mx-auto")}>
+            <div className={cn(alignmentClass, "space-y-4 pb-4 md:pb-10 mx-auto", titleClassName)}>
               {title && (
                 <motion.h2
                   className="text-sm text-primary text-balance font-mono font-semibold tracking-wider uppercase"
@@ -63,12 +64,12 @@ const Section = forwardRef<HTMLElement, SectionProps>(
                     // Keep section headings visually consistent across breakpoints:
                     // - Subtitle (main heading): 36px (mobile)
                     // - Body/description: handled below
-                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-tighter text-foreground lowercase text-[36px]",
+                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-tighter text-foreground lowercase text-[30px] sm:text-[36px]",
                     align === "center"
                       ? "mx-auto"
                       : align === "right"
-                      ? "ml-auto"
-                      : ""
+                        ? "ml-auto"
+                        : ""
                   )}
                   style={{ opacity, y }}
                 >
@@ -83,8 +84,8 @@ const Section = forwardRef<HTMLElement, SectionProps>(
                     align === "center"
                       ? "mx-auto"
                       : align === "right"
-                      ? "ml-auto"
-                      : ""
+                        ? "ml-auto"
+                        : ""
                   )}
                   style={{ opacity, y }}
                 >

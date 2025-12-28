@@ -8,7 +8,7 @@ export function Features() {
       id="features"
       title="Caratteristiche"
       subtitle="Cosa fa la differenza"
-      className="max-w-screen-lg mx-auto container px-10"
+      className="max-w-screen-lg mx-auto container px-10 mt-2.5 sm:mt-0"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map(({ name, description, icon: Icon }, index) => (
