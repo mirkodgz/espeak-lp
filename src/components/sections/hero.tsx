@@ -42,7 +42,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5, ease: easeInOutCubic }}
-            className="text-4xl sm:text-6xl font-bold mb-4 tracking-tighter text-balance"
+            className="text-4xl sm:text-6xl lg:text-[50px] font-bold mb-4 tracking-tighter text-balance"
           >
             <span className="block">{siteConfig.hero.headlineTop}</span>
             <span className="block">
