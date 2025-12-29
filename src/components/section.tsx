@@ -51,7 +51,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
             <div className={cn(alignmentClass, "space-y-4 pb-4 md:pb-10 mx-auto", titleClassName)}>
               {title && (
                 <motion.h2
-                  className="text-sm text-primary text-balance font-mono font-semibold tracking-wider uppercase"
+                  className="text-sm text-primary text-balance font-mono font-semibold tracking-[-0.01em] uppercase"
                   style={{ opacity, y }}
                 >
                   {title}
@@ -64,7 +64,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
                     // Keep section headings visually consistent across breakpoints:
                     // - Subtitle (main heading): 36px (mobile)
                     // - Body/description: handled below
-                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-tighter text-foreground lowercase text-[30px] sm:text-[36px]",
+                    "mx-0 mt-4 max-w-lg text-balance font-bold sm:max-w-none leading-[1.2] tracking-[-0.03em] text-foreground lowercase text-[30px] sm:text-[36px]",
                     align === "center"
                       ? "mx-auto"
                       : align === "right"

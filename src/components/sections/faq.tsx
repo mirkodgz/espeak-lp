@@ -14,11 +14,12 @@ export function FAQ() {
       title="FAQ"
       subtitle="Domande frequenti"
       className="container px-10 mx-auto max-w-[var(--max-container-width)]"
+      titleClassName="pb-4 lg:pb-0"
     >
       <Accordion
         type="single"
         collapsible
-        className="w-full max-w-2xl mx-auto py-10"
+        className="w-full max-w-2xl mx-auto py-10 lg:pt-4"
       >
         {siteConfig.faqs.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
