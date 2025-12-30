@@ -96,9 +96,9 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            style={{ y }}
+            style={{ y, borderColor: "color-mix(in oklab, oklch(0.94 0 0) 10%, #68cb6e)" }}
             transition={{ duration: 1, delay: 1 }}
-            className="w-full max-w-[350px] md:max-w-[450px] relative z-10 shadow-2xl rounded-[8px] overflow-hidden border-4 border-gray-900/10 dark:border-gray-100/10"
+            className="w-full max-w-[350px] md:max-w-[450px] relative z-10 shadow-2xl rounded-[8px] overflow-hidden border-4"
           >
             <div
               style={{
