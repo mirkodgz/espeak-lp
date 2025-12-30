@@ -13,7 +13,7 @@ export function Hero() {
   const y = useTransform(scrollY, [0, 300], [50, 0]);
 
   return (
-    <Section id="hero" className="min-h-[100vh] w-full overflow-hidden">
+    <Section id="hero" className="h-auto pb-20 md:pb-32 w-full overflow-hidden">
       <main className="mx-auto pt-16 sm:pt-24 md:pt-16 text-center relative px-4">
         <div className="relative">
           <motion.div
@@ -83,7 +83,7 @@ export function Hero() {
             />
           </div> */}
         </div>
-        <div className="flex items-center justify-center h-auto sm:h-[500px] select-none">
+        <div className="flex items-center justify-center h-auto min-h-[500px] select-none">
           <motion.img
             src="/screenshot02-profilo-victor.png"
             alt="eSpeak App Screenshot"
@@ -91,8 +91,37 @@ export function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             style={{ y }}
             transition={{ duration: 1, delay: 1 }}
-            className="w-auto max-w-[300px] sm:max-w-[400px] h-auto max-h-[500px] object-contain"
+            className="w-auto max-w-[300px] sm:max-w-[400px] h-auto max-h-[500px] object-contain hidden"
           />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            style={{ y }}
+            transition={{ duration: 1, delay: 1 }}
+            className="w-full max-w-[350px] md:max-w-[450px] relative z-10 shadow-2xl rounded-[8px] overflow-hidden border-4 border-gray-900/10 dark:border-gray-100/10"
+          >
+            <div
+              style={{
+                position: "relative",
+                paddingTop: "120.31602708803612%",
+              }}
+            >
+              <iframe
+                src="https://customer-cps5jrevd1ex7gds.cloudflarestream.com/87300be31ba4fbcd2c1bdd0980dd1505/iframe"
+                loading="lazy"
+                style={{
+                  border: "none",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  height: "100%",
+                  width: "100%",
+                }}
+                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+                allowFullScreen={true}
+              ></iframe>
+            </div>
+          </motion.div>
         </div>
       </main>
     </Section>
