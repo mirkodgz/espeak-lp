@@ -50,7 +50,7 @@ export function Pricing() {
       titleClassName="pb-4 lg:pb-0"
       ref={ref}
     >
-      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto py-10 lg:pt-4">
+      <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto py-10 lg:pt-4">
         {(siteConfig.pricing as PricingPlan[]).map((plan, index) => (
           <motion.div
             key={plan.name}

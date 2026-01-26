@@ -167,30 +167,13 @@ export const siteConfig = {
     },
   ],
   pricing: [
-    {
-      name: "Mensile",
-      href: "https://apps.apple.com/it/app/espeak-active-english/id6756503127",
-      price: "€19,99",
-      period: "mese",
-      yearlyPrice: "€19,99",
-      features: [
-        "Lessons: Interactive Listening (Podcast + Speaking)",
-        "Roleplays ottimizzati (Scenari reali)",
-        "Vocabulary Building con tag e categorie",
-        "Laboratorio di Pronuncia (Scrivi, ascolta, ripeti)",
-        "Video Tutorial e How-to inclusi",
-        "Miglioramenti e nuovi contenuti ogni settimana",
-      ],
-      description: "Massima flessibilità per iniziare subito.",
-      buttonText: "Inizia ora",
-      isPopular: false,
-    },
+
     {
       name: "Trimestrale",
       href: "https://apps.apple.com/it/app/espeak-active-english/id6756503127",
-      price: "€15,99",
+      price: "€14,99",
       period: "mese",
-      yearlyPrice: "€47,99",
+      yearlyPrice: "€44,99",
       savings: "Risparmio 20%",
       features: [
         "Lessons: Interactive Listening (Podcast + Speaking)",
@@ -208,9 +191,9 @@ export const siteConfig = {
     {
       name: "Annuale",
       href: "https://apps.apple.com/it/app/espeak-active-english/id6756503127",
-      price: "€9,99",
+      price: "€11,25",
       period: "mese",
-      yearlyPrice: "€113,99",
+      yearlyPrice: "€134,99",
       savings: "Risparmio >50%",
       features: [
         "Lessons: Interactive Listening (Podcast + Speaking)",
