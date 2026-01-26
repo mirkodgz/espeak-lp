@@ -92,21 +92,21 @@ export const siteConfig = {
       title: "Conversazioni reali in inglese, ogni giorno",
       description:
         "Allenati con situazioni concrete: lavoro, viaggi, appuntamenti, colloqui, ordinare al bar o fare una telefonata importante. Niente copioni rigidi. Niente frasi artificiali. Solo inglese vero.",
-      imageSrc: "/screenshot03-profilo-rollpay.png",
+      imageSrc: "/device-1.webp",
       direction: "rtl" as const,
     },
     {
       title: "Correzione e feedback istantanei",
       description:
         "Mentre parli, espeak corregge la pronuncia, migliora la grammatica, arricchisce il vocabolario e ti spiega perché una frase funziona (o no). Impari parlando, non memorizzando.",
-      imageSrc: "/roleplays-running.png",
+      imageSrc: "/device-3.webp",
       direction: "ltr" as const,
     },
     {
       title: "Impara senza stress, al tuo ritmo",
       description:
         "Nessun giudizio. Nessuna ansia. Nessun orario fisso. Puoi praticare 5 minuti o un'ora intera. Quando vuoi. Dove vuoi.",
-      imageSrc: "/promemoria.png",
+      imageSrc: "/device-6.webp",
       direction: "rtl" as const,
     },
   ],

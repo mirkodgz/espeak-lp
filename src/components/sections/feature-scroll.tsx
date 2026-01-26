@@ -28,7 +28,7 @@ export function FeatureScroll() {
       <div className="flex items-center justify-center select-none">
         <motion.img
           ref={phoneRef}
-          src="/screenshot01-profilo.png"
+          src="/device-5.webp"
           alt="eSpeak App Screenshot"
           className="w-auto h-auto max-w-[300px] sm:max-w-[400px] object-contain mx-auto"
           style={{ y }}
