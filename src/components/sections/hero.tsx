@@ -103,11 +103,11 @@ export function Hero() {
             <div
               style={{
                 position: "relative",
-                paddingTop: "120.31602708803612%",
+                paddingTop: siteConfig.hero.video.paddingTop,
               }}
             >
               <iframe
-                src="https://customer-cps5jrevd1ex7gds.cloudflarestream.com/87300be31ba4fbcd2c1bdd0980dd1505/iframe"
+                src={`https://customer-cps5jrevd1ex7gds.cloudflarestream.com/${siteConfig.hero.video.id}/iframe`}
                 loading="lazy"
                 style={{
                   border: "none",
