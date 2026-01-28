@@ -45,8 +45,8 @@ export function Pricing() {
     <Section
       id="pricing"
       title="Scegli il tuo piano verso la fluenza"
-      subtitle="Accedi ora a conversazioni illimitate con Giulia, il tuo tutor AI disponibile 24/7."
-      className="container px-10 mx-auto max-w-[var(--max-container-width)] mt-2.5 sm:mt-0"
+      subtitle="Accedi ora a conversazioni illimitate con il tuo tutor AI disponibile 24/7."
+      className="container px-10 mx-auto max-w-[1200px] mt-2.5 sm:mt-0"
       titleClassName="pb-4 lg:pb-0"
       ref={ref}
     >
