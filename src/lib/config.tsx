@@ -174,7 +174,6 @@ export const siteConfig = {
       price: "€14,99",
       period: "mese",
       yearlyPrice: "€44,99",
-      savings: "Risparmio 20%",
       features: [
         "Lessons: Interactive Listening (Podcast + Speaking)",
         "Roleplays ottimizzati (Scenari reali)",
@@ -184,9 +183,8 @@ export const siteConfig = {
         "Miglioramenti e nuovi contenuti ogni settimana",
       ],
       description: "Il miglior equilibrio tra costo e risultati.",
-      buttonText: "Scegli trimestrale",
+      buttonText: "Inizia prova gratuita",
       isPopular: true,
-      badge: "PIÙ POPOLARE ⭐",
     },
     {
       name: "Annuale",
@@ -194,7 +192,6 @@ export const siteConfig = {
       price: "€11,25",
       period: "mese",
       yearlyPrice: "€134,99",
-      savings: "Risparmio >50%",
       features: [
         "Lessons: Interactive Listening (Podcast + Speaking)",
         "Roleplays ottimizzati (Scenari reali)",
@@ -204,9 +201,8 @@ export const siteConfig = {
         "Miglioramenti e nuovi contenuti ogni settimana",
       ],
       description: "L'investimento definitivo per il tuo futuro.",
-      buttonText: "Scegli annuale",
+      buttonText: "Inizia prova gratuita",
       isPopular: false,
-      badge: "MIGLIOR VALORE 🚀",
     },
   ],
   faqs: [

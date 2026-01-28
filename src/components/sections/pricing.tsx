@@ -69,7 +69,7 @@ export function Pricing() {
             </div>
             {plan.yearlyPrice !== plan.price && plan.name !== "Mensile" && (
               <div className="text-xs text-muted-foreground mb-4">
-                (Pagamento unico di {plan.yearlyPrice}{plan.savings ? ` - ${plan.savings}` : ''})
+                (Pagamento unico di {plan.yearlyPrice})
               </div>
             )}
             <p className="text-sm text-muted-foreground mb-4">
